@@ -1,0 +1,29 @@
+F1	F2	F3	F4	F5	F6	F7
+EUS FINDINGS PER ORGAN DIAGRAM						
+						
+	Esophagus	Stomach	Duodenum	pancreas	biliary tree	colorectal
+Intramural lesion	x	x	x		x	x
+Wall thickening	x	x	x		x	x
+Polyp	x	x	x			x
+Mass	x	x	x	x	x	x
+Lymph node(s)	x	x	x	x	x	x
+Stricture	x		x		x	x
+Extramural mass	x	x	x		x	x
+Cyst	x	x	x	x	x	x
+Varices	x	x				
+Collaterals	x	x				x
+Pleural effusion	x					
+Cardiac effusion	x					
+Ascites		x	x			x
+Perianal fistula						x
+Parenchymal changes				x		
+Pancreatic duct changes				x		
+Calcification				x		
+Ventral anlage				x		
+Pancreatic stent				x		
+Bile duct changes					x	
+Cholelithiasis					x	
+Choledochocele					x	
+Gallbladder sludge					x	
+Biliary stent					x	
+Other	x	x	x	x	x	x

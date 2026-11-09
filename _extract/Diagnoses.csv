@@ -1,0 +1,245 @@
+F1	F2
+ENDOSCOPIC DIAGNOSES	
+	
+	
+UPPER ENDOSCOPY	Term
+	Aberrant pancreas
+	Achalasia
+	Barretts esophagus
+	Benign stricture
+	Bleeding of unknown origin
+	Coeliac disease
+	Crohns disease
+	Dieulafoy lesion
+	Duodenal benign tumor
+	Duodenal bulb deformity
+	Duodenal cancer
+	Duodenal diverticulum
+	Duodenal fistula
+	Duodenal polyp
+	Duodenal postoperative appearance
+	Duodenal submucosal tumor
+	Duodenal superficial neoplasm
+	Duodenal ulcer
+	Duodenal ulcer with bleeding
+	Duodenopathy - erosive
+	Duodenopathy - hemorrhagic
+	Duodenopathy - hyperemic
+	Eosinophilic esophagitis
+	Esophageal benign tumor
+	Esophageal caustic injury
+	Esophageal cancer
+	Esophageal candidiasis
+	Esophageal diverticulum
+	Esophageal fistula
+	Esophageal foreign body
+	Esophageal polyp
+	Esophageal postoperative apperance
+	Esophageal stricture
+	Esophageal superficial neoplasm
+	Esophageal submucosal tumor
+	Esophageal varices
+	Extrinsic compression
+	Gastric benign tumor
+	Gastric cancer
+	Gastric diverticulum
+	Gastric fistula
+	Gastric foreign body
+	Gastric caustic injury
+	Gastric lymphoma
+	Gastric polyp(s)
+	Gastric postoperative appearance
+	Gastric retention
+	Gastric submucosal tumor
+	Gastric superficial neoplasm
+	Gastric ulcer
+	Gastric ulcer with bleeding
+	Gastric ulcer-anastomotic
+	Gastric varices
+	Gastropathy-erosive
+	Gastropathy-hemorrhagic
+	Gastropathy-hyperemic
+	Gastropathy-hypertrophic
+	Gastropathy-NSAID-related
+	Gastropathy-portal hypertensive
+	Gastropathy-varioloform
+	Hiatus hernia
+	Mallory-Weiss tear
+	Other esophagitis
+	Parasites
+	Post sclerotherapy appearance
+	Pyloric stenosis
+	Reflux esophagitis
+	Schatzki ring
+	Scar
+	Submucosal tumor
+	
+Enteroscopy	Term
+	Angiectasia
+	Bleeding, unknown origin
+	Celiac disease
+	Crohns disease
+	Diverticula
+	Enteropathy - erosive
+	Enteropathy - hemorrhagic
+	Enteropathy - hyperemic
+	Enteropathy - NSAID-related
+	Erosions
+	FAP
+	GIST
+	Graft v host disease
+	Juvenile polyposis
+	Lipoma
+	Lymphangiectasia
+	Lymphoma
+	NSAID-enteropathy
+	Parasites
+	Peutz-Jæger polyposis
+	Polyp(s)
+	Radiation enteritis
+	Small bowel benign tumor
+	Small bowel malignant tumor
+	Small bowel superficial neoplasm
+	Submucosal tumor
+	Ulcer
+	
+Colonoscopy	Term
+	angiectasia
+	Bleeding of unknown origin
+	Colitis - ischemic
+	Colitis - pseudomembranous
+	Colorectal cancer
+	Colorectal superficial neoplasm
+	Condylomata
+	Crohns disease - active
+	Crohns disease - fulminant
+	Crohns disease - quiescent
+	Diverticulitis
+	Diverticulosis
+	Fistula
+	Foreign body
+	Hemorrhoids
+	Ileitis
+	Lipoma
+	Lymphoma
+	Melanosis
+	Parasites
+	Pneumatosis coli
+	Polyp
+	Polyposis syndrome
+	Postoperative appearance
+	Proctitis
+	Rectal ulcer
+	Solitary ulcer
+	Stricture - inflammatory
+	Stricture - malignant
+	Stricture - postoperative
+	Submucosal tumor
+	Ulcerative colitis - active
+	Ulcerative colitis - fulminant
+	Ulcerative colitis - quiescent
+	
+ERCP	Term
+	Abnormal pancreatobiliary junction
+	Anastomotic stricture
+	Biliary fistula/leak
+	Biliary injury
+	Biliary occlusion
+	Biliary stent occlusion
+	Biliary stone(s)
+	Biliary stricture
+	Carolis disease
+	Choledochal cyst
+	Choledochocele
+	Cystic duct stones
+	Gallbladder stone(s)
+	Gallbladder tumor
+	Hemobilia
+	IPMT
+	Kolangiocarcinoma
+	Liver parenchymal disease
+	Mirizzi syndrome
+	Pancreas annulare
+	Pancreas divisum
+	Pancreatic cyst
+	Pancreatic duct fistula/leak
+	Pancreatic duct injury
+	Pancreatic duct stricture
+	Pancreatic stent occlusion
+	Pancreatic stone
+	Pancreatic tumor
+	Pancreatitis - acute
+	Pancreatitis - chronic
+	Papillary stenosis
+	Papillary tumor
+	Primary sclerosing cholangitis
+	Sump syndrome
+	Suppurative cholangitis
+	
+EUS	Term
+	Aortic aneurysm
+	Ascites
+	Bile duct dilation
+	Bile duct stone
+	Bile duct stricture
+	Bile duct tumor
+	Biliary sludge
+	Colorectal cancer
+	Colorectal polyp
+	Colorectal stricture
+	Colorectal submucosal mass
+	Colorectal ulcer
+	Crohns disease
+	Duodenal cancer
+	Duodenal polyp
+	Duodenal stricture
+	Duodenal submucosal mass
+	Duodenal ulcer
+	Endocrine tumor
+	Esophageal cancer
+	Esophageal mass
+	Esophageal polyp
+	Esophageal stricture
+	Esophageal submucosal mass
+	Esophageal ulcer
+	Gallbladder sludge
+	Gallbladder stone
+	Gastric cancer
+	Gastric polyp
+	Gastric submucosal mass
+	Gastric ulcer
+	GIST tumor
+	IPMT
+	linitis plastica
+	lipoma
+	lymphoma
+	Mediastinal lymph node(s)
+	Mediastinal mass
+	Menetrier’s disease
+	Mesenteric artery aneurysm
+	Pancreas divisum
+	Pancreatic cancer
+	Pancreatic duct dilation
+	Pancreatic duct stricture
+	Pancreatic mass
+	Pancreatic pseudocyst
+	Pancreatic stone
+	Pancreatitis - acute
+	Pancreatitis - chronic
+	Papillary mass
+	Pericardial effusion
+	Pleural effusion
+	Polyp
+	portal vein thrombosis
+	postradiation changes
+	pseudoaneurysm
+	Splenic artery aneurysm
+	Submucosal tumor
+	TNM-stage
+	Ulcerative colitis
+	Varices
+	Wall thickening
+	
+	
+	
+	

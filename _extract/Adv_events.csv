@@ -1,0 +1,83 @@
+F1	F2	F3	F4
+ADVERSE EVENTS			
+			
+INTRAPROCEDURE ADVERSE EVENTS			
+Type	attribute	attribute values	comments
+			
+No adverse events during the procedure			
+Perforation of lumen	Location	main sites	
+	Communicating to	Retroperitoneum	
+		Peritoneum	
+		Mediastinum	
+	type	By endoscope	
+		Sphincterotomy-related	
+		Polypectomy-related	
+		Dilation-related	
+Bleeding	location	main sites	
+Cardiopulmonary	type	apnoea/hypopnea	
+		bronchospasm	
+		laryngospasm	
+		hypotension	
+		hypertension	
+		arrest	
+		dysrythmia	
+		aspiration	
+	Action	ventilation assist	
+		Emergency code	
+		list below	
+Equipment malfunction	type	specify	
+Equipment impaction	type	specify	
+Allergic reaction	agent	specify	
+	type	specify	
+	Action	ventilation assist	
+		Emergency code	
+		list below	
+Other events	Type	specify	
+			
+POSTPROCEDURE ADVERSE EVENTS			
+Type	attribute	attribute values	
+			
+cardiopulmonary event	type	specify	
+	date of onset	specify	
+	relation	probable	
+		possible	
+		unlikely	
+Abdominal pain	date of onset	specify	
+	relation	probable	
+		possible	
+		unlikely	
+Infection	type	specify	
+	date of onset	specify	
+	relation	probable	
+		possible	
+		unlikely	
+Thromboembolic event	type	specify	
+	date of onset	specify	
+	relation	probable	
+		possible	
+		unlikely	
+Late perforation	type	specify	
+	date of onset	specify	
+			
+			
+Late bleeding	type	specify	
+	date of onset	specify	
+			
+			
+Pancreatitis	date of onset	specify	
+			
+			
+			
+ACTIONS AND OUTCOMES FOR ALL EVENTS			
+			
+	actions	endoscopic intervention	for intraproc events only
+		aborted procedure	for intraproc events only
+		medical intervention	
+		admission to hospital (days)	
+		admission to ICU	
+		repeat endoscopy	
+		radiologic intervention	
+		surgery	
+	outcomes	recovery	
+		permanent disability	
+		died (days after procedure)	

@@ -1,0 +1,138 @@
+F1	F2	F3	F4	F5	F6
+EUS ANATOMY					
+					
+ORGAN	SITE	MODIFIER			
+					
+Esophagus	esophageal wall	right			
+	upper esophagus	left			
+	mid esophagus	xx cm from incisors			
+	lower esophagus				
+	cardia				
+	mediastinum				
+	periesophageal				
+	paraesophageal				
+	subcarina				
+	pleura				
+	lung				
+	trachea				
+	main bronchus				
+	left atrium				
+	pericardium				
+	aortopulmonary window				
+	diaphragm				
+	crus				
+	spine				
+	carotid artery				
+	Subclavian artery				
+	aortic arch				
+	thoracic aorta				
+	pulmonary artery				
+	superior vena cava				
+	inferior vena cava				
+	azygos vein				
+	lymph node station xx	station no			
+					
+Stomach	Stomach	Greater curve			
+	Cardia	Lesser curve			
+	Fundus	Anterior wall			
+	Body	Posterior wall			
+	Incisura	xx cm from incisors			
+	Antrum	xx cm from the GE junction			
+	Prepyloric region	xx cm from pylorus			
+	Pylorus	xx mm from GI wall			
+	Whole stomach	generalized			
+	Anastomosis				
+	Hiatal hernia				
+	Gastric wall				
+	celiac axis				
+	perigastric				
+	left kidney				
+	spleen				
+	splenic hilum				
+	left adrenal				
+	portal vein				
+	splenic vein				
+	portal confluence				
+	splenic artery				
+	left renal artery				
+	left renal vein				
+	hepatic artery				
+	superior mes artery				
+	superior mes vein				
+	left gastric artery				
+					
+Duodenum 	Duodenum	Proximal			
+	Duodenal bulb	Distal			
+	D2 - 2nd part of duodenum	generalized			
+	D3 - 3rd part of duodenum				
+	D4 - 4th part of duodenum				
+	Upper duodenal knee				
+	Ampullary region				
+	Major papilla				
+	Minor papilla				
+	Anastomosis				
+	duiodenal wall				
+	periduodenal				
+	right kidney				
+	right adrenal				
+	Inferior vena cava				
+	Aorta (abdominal)				
+					
+Biliary tract	Major papilla				
+	Whole biliary tree				
+	Common bile duct	whole 			
+		upper			
+		mid			
+		lower			
+		terminal			
+		xx cm from papilla			
+		Above			
+		Below			
+	Cystic duct				
+	Cystic duct takeoff				
+	Gallbladder				
+	Bifurcation				
+	generalized				
+	peribiliary				
+					
+Pancreas	Major papilla	xx cm from the papilla			
+	Minor papilla	whole			
+	Whole pancreatic duct	upstream			
+	head	downstream			
+	neck	central			
+	body	peripheral			
+	tail				
+	Uncinate process				
+	ventral duct				
+	dorsal duct				
+	Duct of Santorini				
+	Duct of Wirsungi				
+	Side branches				
+	generalized				
+	peripancreatic				
+					
+Colorectum	colorectal wall	proximal			
+	anal canal	mid			
+	lower rectum	distal			
+	mid rectum	xx cm from anus			
+	upper rectum	xx cm from stoma			
+	rectosigmoid junction				
+	sigmoid				
+	descending colon				
+	transverse colon				
+	ascending colon				
+	cecum				
+	terminal ileum				
+	perianal				
+	perirectal 				
+	pericolonic				
+	prostate gland				
+	seminal vesicles				
+	urinary bladder				
+	uterus				
+	vagina				
+	sacrum				
+	puborectalis muscle				
+	internal sphincter				
+	external sphincter				
+	anastomosis				

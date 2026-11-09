@@ -1,0 +1,49 @@
+F1	F2	F3	F4	F5	F6
+ERCP FINDINGS PER ORGAN					
+					
+		Maj pap	Min pap	Bile tree	Panc duct
+Location	Normal	x	x		
+	High position	x	x		
+	Low position	x	x		
+	3rd part of duodenum	x	x		
+	Inside diverticulum	x	x		
+	At edge of diverticulum	x	x		
+					
+Output	None	x	x		
+	Bile	x	x		
+	Pus	x	x		
+	Debris	x	x		
+	Blood	x	x		
+	Parasites	x			
+					
+Appearance	Normal	x	x		
+	Hidden	x	x		
+	Small	x	x		
+	Adenomatous	x	x		
+	Infiltrated	x	x		
+	Congested	x	x		
+	Lacerated	x	x		
+	Previous EPT	x	x		
+	Previous fistulotomy	x			
+	Previous sphincteroplasty	x			
+	Previous ampullectomy	x			
+					
+Ductal anomaly	Pancreas divisum				x
+	Pancreas annulare				x
+	Cystic duct implant			x	
+	Hepatic duct implant			x	
+					
+					
+Ductal pathology	Irregularity			x	x
+	Dilation			x	x
+	Stenosis			x	x
+	Stone			x	x
+	Tumor			x	x
+	Cavity			x	x
+	Fistula			x	x
+	Leak			x	x
+	Extravasation			x	x
+	Parenchymal filling			x	x
+	Stent			x	x
+	Filling defects			x	x
+	Previous surgery			x	x

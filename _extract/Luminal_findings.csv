@@ -1,0 +1,176 @@
+F1	F2	F3	F4
+LUMINAL FINDINGS			
+			
+Heading	Term	Attribute	Attr values
+			
+Lumen	Normal		
+	Dilation		
+	Stenosis	Appearance	Benign
+			Malignant
+		Length	xx cm
+		Traversable	Yes
+			After dilation
+			No
+	Compression	size	small
+			large
+	Diverticulum	Number	Single
+			Multiple
+		Size	Small
+			Large
+		Neck	Narrow
+			Wide
+		Content	None
+			Food
+			Blood
+			Clot
+	Previous surgery	Type	Specify
+	Deformity	Type	Specify
+	Ring/web	Lumen	xx mm
+	Hiatal hernia	Upper border	cm from incisors
+		Lower border	cm from incisors
+	Z-line	position	cm from incisors
+			
+			
+Contents	Foreign body	Type	Specify..
+	Blood	Type	Fresh
+			Clot
+			Hematin
+	Food		
+	Bezoar	Type	Specify..
+	Fluid	Type	Specify..
+	Parasites	Type	Specify..
+	Stent	Type	Specify..
+	Gastrostomy	Type	Specify..
+	Faeces		
+	Exudate		
+			
+Mucosa	Erythematous	Distribution	Localised
+	Edematous		Patchy
+	Granular		Generalised
+	Nodular		v
+	Friable		v
+	Hemorrhagic		v
+	Petechial		v
+	Atrophic		v
+	Sclerosis/scarring		
+	Barretts esophagus	Extent	CM-classification
+	Esophagitis	Grade	LA-classification
+		Bleeding	Yes
+			Bleeding stigmata
+			No
+	Candidosis/candidiasis	Distribution	Localised
+	Scalloping		Patchy
+	Pathological vascular pattern		Generalised
+	Ulcerated mucosa		
+	Pseudomembranes		
+	Melanosis		
+			
+Flat lesions	Angiectasia	Number	Single
+			Multiple
+		Bleeding	Yes
+			No
+		Size (cm)	xx cm
+	Dieulafoy lesion	Number	Single
+			Multiple
+		Bleeding	Spurting
+			Oozing
+			Clot
+			No
+		Size (cm)	xx cm
+	Ectopic gastric mucosa	Size (cm)	xx cm
+	Flat/elevated superficial lesion	Number	Single
+			Multiple
+		Size (cm)	xx cm
+		Free margins	To relevant structure(s)
+		Type	Japan classification
+		Surface	Kudo classification
+		Bleeding	Yes
+			Stigmata
+			No
+			
+Protruding lesions	Nodule	Number	Single
+			Multiple
+		Size (cm)	xx cm
+	Polyp	Number	Single
+			Multiple
+		Size (cm)	xx cm
+		Shape	Pedunculated
+			Semipedunculated
+			Sessile
+			Flat elevated
+		Surface	Kudo classification
+		Appearance	Malignant
+			Adenomatous
+			Hyperplastic
+			Inflammatory
+			Pseudopolyp
+		Bleeding	Yes
+			Stigmata
+			No
+	Tumor/mass	Number	Single
+			Multiple
+		Size (cm)	xx cm
+		Free margins	To relevant structure(s)
+		Type	Paris type 0-4
+			Japan class for type 0
+		Surface	Kudo classification
+		Bleeding	Yes
+			Stigmata
+			No
+	Varices	Number	#
+		Grade	1-3
+		Size (cm)	xx cm
+		Bleeding	Spurting
+			Oozing
+			Stigmata
+			No
+		Red signs	yes
+			no
+	Enlarged folds	Distribution	Localized
+			Generalized
+		Size (cm)	xx cm
+	Ectopic pancreas	Size (cm)	xx cm
+	Enlarged Brunners glands	Size (cm)	xx cm
+	Hemorrhoids	Number	#
+		Grade (Goligher)	1-4
+		Size (cm)	xx cm
+	Condylomas	Number	A few
+			Multiple
+			
+		Size (cm)	xx cm
+Excavated lesions	Erosion	Number	Single
+			Multiple
+		Bleeding	Yes
+			Stigmata
+			No
+		Size (cm)	xx cm
+	Depressed superficial lesion	Number	Single
+			Multiple
+		Size (cm)	xx cm
+		Free margins	To relevant structure(s)
+		Type	Japan classification
+		Surface	Kudo classification
+		Bleeding	Yes
+			Stigmata
+			No
+	Ulcer	Number	
+		Size (cm)	xx cm
+		Depth	Superficial
+			Cratered
+		Shape	Round
+			Linear
+			Irregular
+		Bleeding	Forrest classification
+	Scar	Size (cm)	xx cm
+	Fistula	Communicating organ	specify
+		Size (cm)	xx cm
+	Perforation	type	Mediastinal
+			Free peritoneal
+			Retroperitoneal
+		Size (cm)	xx cm
+	Mallory-Weiss tear	Bleeding	Spurting
+			Oozing
+			Stigmata
+			No
+		Size (cm)	xx cm
+	Anal fissure	Size (cm)	xx cm

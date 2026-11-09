@@ -1,0 +1,167 @@
+F1	F2	F3
+REASONS FOR ENDOSCOPY		
+		
+UPPER ENDOSCOPY		
+Category	Term	Qualifier
+Symptoms	Abdominal distress/pain	Duration
+	Dyspepsia	Degree
+	Heartburn	
+	Dysphagia	
+	Odynophagia	
+	Vomiting	
+	Hematemesis	
+	Melena	
+	Nausea	
+	Weight loss	
+	Anemia	
+	Diarrhea	
+		
+Diseases	Achalasia	Suspected
+	Anastomic leak	Established
+	Angiectasia	Follow-up of
+	Atrophic gastritis	Sampling of
+	Barretts esophagus	Treatment of
+	Caustic ingestion	Screening for
+	Celiac disease	
+	Diverticulum	
+	Duodenal stricture	
+	Duodenal ulcer	
+	Esophageal stricture	
+	Esophageal varices	
+	Fistula	
+	Foreign body	
+	Gastric ulcer	
+	Gastric varices	
+	GERD	
+	Lymphoma	
+	Metastasis, unknown origin	
+	Other esophagitis	
+	Pernicious anaemia	
+	Polyp	
+	Precancrous lesions	
+	Pyloric stenosis	
+	Reflux esophagitis	
+	Superficial neoplastic lesion	
+	Tumor/mass	
+		
+COLONOSCOPY		
+Category	Term	Qualifier
+Symptoms	Hematochezia	Duration
+	Melena	Degree
+	Diarrhea	
+	Abdominal distress/pain	
+	Altered bowel habits	
+	Anemia	
+	Weight loss	
+	Constipation	
+	Defecation disorder	
+	Abdominal mass	
+		
+Diseases	Anastomotic leak	Suspected
+	Angiectasia	Established
+	Colonic obstruction	Follow-up of
+	Colorectal cancer	Sampling of
+	Crohns disease	Treatment of
+	Diverticula	Screening for
+	Endocrine mass	
+	Fistula	
+	Ischemic colitis	
+	Metastasis, unknown origin	
+	Other colitis	
+	Polyps	
+	Pouchitis	
+	Pseudomembranous colitis	
+	Superficial neoplastic lesion	
+	Ulcerative colitis	
+		
+		
+ENTEROSCOPY		
+Category	Term	Qualifier
+		
+Symptoms	Abdominal distress/pain	Duration
+	Vomiting	Degree
+	Melena	
+	Anemia	
+	Diarrhea	
+		
+Diseases	Angiectasia	Suspected
+	Celiac disease	Established
+	Crohns disease	Follow-up of
+	Hereditary polyposis syndrome	Sampling of
+	Lymphoma	Treatment of
+	NSAID enteropathy	Screening for
+	Polyps	
+	Stricture	
+	mass	
+		
+ERCP		
+Category	Term	Qualifier
+		
+Symptoms	Jaundice	Duration
+	Pancreatobiliary pain	Degree
+	Pruritus	
+		
+Diseases	Acute pancreatitis	Suspected
+	Ampullary mass	Established
+	Anastomotic stricture	Follow-up of
+	Bile duct injury	Sampling of
+	Bile duct leak	Treatment of
+	Bile duct stone	Screening for
+	Bile duct stricture	
+	Carolis disease	
+	Choledochal cyst	
+	Choledochocele	
+	Chronic pancreatitis	
+	Fistula	
+	Gallbladder polyp	
+	Gallbladder stone	
+	Gallbladder mass	
+	Hepatobiliary mass	
+	IPMT	
+	Mirizzi syndrome	
+	Pancreatic duct leak	
+	Pancreatic injury	
+	Pancreatic pseudocyst	
+	Pancreatic stone	
+	Pancreatic mass	
+	Papillary dysfunction	
+	Parasites	
+	Parenchymal liver disease	
+	Primary sclerosing cholangitis	
+	Purulent cholangitis	
+	Stent dysfunction	
+		
+EUS		
+Category	Term	Qualifier
+		
+Symptoms	Abdominal pain	Duration
+	Diarrhea	Degree
+	Jaundice	
+	Pancreatobiliary pain	
+	Weight loss	
+Diseases	Abdominal mass	Suspected
+	Ampullary mass	Established
+	Bile duct mass	Follow-up of
+	Bile duct stone	Sampling of
+	Bile duct stricture	Staging of
+	Colorectal intramural lesion	Treatment of
+	Colorectal mass	Screening for
+	Colorectal stricture	
+	Duodenal intramural lesion	
+	Duodenal mass	
+	Duodenal stricture	
+	Esophageal intramural lesion	
+	Esophageal mass	
+	Esophageal stricture	
+	Gastric intramural lesion	
+	Gastric mass	
+	Liver mass	
+	Mediastinal lymph node/mass	
+	Pancreatic cyst	
+	Pancreatic mass	
+	Pancreatic pseudocyst	
+	Pancreatic stone	
+	Pancreatitis - acute	
+	Pancreatitis - chronic	
+	Perirectal mass	
+	Pulmonary mass	

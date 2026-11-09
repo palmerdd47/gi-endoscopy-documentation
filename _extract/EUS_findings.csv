@@ -1,0 +1,120 @@
+F1	F2	F3	F4	F5	F6	F7	F8	F9	F10	F11	F12	F13	F14	F15	F16	F17
+EUS FINDINGS																
+																
+	location	Origin	Layer origin	Outer limit	size (mm)	(cont. Below)										
+Intramural lesion	x		x	x	x											
+Wall thickening	x		x		x											
+Polyp	x		x		x											
+Mass	x	x	x	x	x											
+Lymph node(s)	x				x											
+Stricture	x															
+Extramural mass	x	x			x											
+Varices	x				x											
+Collaterals	x															
+Pleural effusion	x															
+Cardiac effusion																
+Ascites																
+Cyst	x				x											
+Parenchymal changes	x															
+Pancreatic duct changes	x															
+Calcification	x				x											
+Ventral anlage																
+Pancreatic stent	x															
+Bile duct changes	x															
+Cholelithiasis	x				x											
+Gallbladder sludge																
+Biliary stent	x															
+Pancreas divisum																
+																
+FINDING ATTRIBUTES		Origin	Layer origin	Outer limit												
+		relevant organs	mucosa	mucosa												
+			muscularis mucosa	m. Mucosa												
+			submucosa	submucosa												
+			muscularis propria	m propria												
+				beyond m. propria												
+				Transmural												
+				All layers												
+				Indeterminate												
+																
+																
+	shape/character	Margins	Echofeatures	Cyst features	(cont. Below)											
+Intramural lesion	x	x	x													
+Wall thickening			x													
+Polyp	x	x	x													
+Mass	x	x	x													
+Lymph node(s)	x	x	x													
+Stricture																
+Extramural mass	x	x	x													
+Varices	x															
+Collaterals	x															
+Pleural effusion																
+Cardiac effusion																
+Ascites																
+Cyst	x	x		x												
+Parenchymal changes	x		x													
+Pancreatic duct changes	x															
+Calcification	x															
+Ventral anlage																
+Pancreatic stent																
+Bile duct changes																
+Cholelithiasis			x													
+Gallbladder sludge																
+Biliary stent																
+Pancreas divisum																
+																
+	Shape/character	Margins	Echofeatures	Cyst features												
+	round	well defined	normal	anechoic												
+	oval	poorly defined	anechoic	homogeneous												
+	triangular	smooth	hypoechoic	heterogeneous												
+	crescent-shaped	irregular	isoechoic	debris present												
+	tortuous	encasing	hyperechoic	septated												
+	tubular	abutting	hyperechoic foci	unilocular												
+	lobulated	loss of interface	hyperechoic strands	multilocular												
+	sessile	invading	granular	microcystic												
+	pedunculated	with intraluminal growth	homogeneous	macrocystic												
+	ulcerated		heterogeneous	no of cysts												
+	irregular		cystic components	microcyst size												
+	circumferential		solid	wall thickness												
+	enlarged		shadowing	wall irregularity												
+	atrophic		distal enhancement	mural nodules												
+	diffuse			calcification												
+	generalized			duct communication												
+	localized			associated mass												
+	size/number:…															
+																
+																
+																
+	Invasion ext	invasion into	T-stage	N-stage	degree	number	duct changes									
+Intramural lesion	x	x														
+Wall thickening																
+Polyp																
+Mass	x	x	x	x												
+Lymph node(s)						x										
+Stricture			x	x	x											
+Extramural mass	x	x	x	x												
+Varices					x											
+Collaterals					x											
+Pleural effusion					x											
+Cardiac effusion					x											
+Ascites					x											
+Cyst																
+Parenchymal changes					x											
+Pancreatic duct changes					x		x									
+Calcification																
+Ventral anlage																
+Pancreatic stent						x										
+Bile duct changes							x									
+Cholelithiasis						x										
+Gallbladder sludge					x											
+Biliary stent						x										
+Pancreas divisum																
+																
+	invasion extent	invasion into			Degree		Duct changes									
+	encasement	relevant organs			None		normal									
+	Interface loss <1.5cm				Minimal		regular									
+	Interface loss >1.5cm				Moderate		irregular contour									
+	abuttment				Extensive		beaded									
+	invasion				Indeterminate		dilated									
+	intraluminal growth						narrowed									
+							strictured									
+							with hyperechoic walls									

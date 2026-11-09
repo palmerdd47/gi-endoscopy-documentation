@@ -1,0 +1,12 @@
+F1	F2	F3	F4	F5	F6	F7	F8	F9
+ORGANS PER PROCEDURE								
+								
+	EGD	Enteroscopy	VCE	Colonoscopy	ERCP			
+Esophagus	x	x	x		x			
+Stomach	x	x	x		x			
+Duodenum	x	x	x		x			
+Jejunum	x	x	x		x			
+Ileum		x	x	x				
+Colon		x	x	x				
+Biliary tree					x			
+Pancreatic duct					x			

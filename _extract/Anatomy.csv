@@ -1,0 +1,109 @@
+F1	F2	F3
+ANATOMY		
+		
+ORGAN	SITE	MODIFIER
+		
+Esophagus	Esophagus	xx cm from incisors
+	Cricopharynx	
+	Upper third	
+	Middle third	
+	Lower third	
+	z-line	
+	Cardia	
+	Whole esophagus	
+	Anastomosis	
+		
+Stomach	Stomach	Greater curve
+	Cardia	Lesser curve
+	Fundus	Anterior wall
+	Body	Posterior wall
+	Incisura/angulus	xx cm from incisors
+	Antrum	xx cm from the GE junction
+	Prepyloric region	xx cm from pylorus
+	Pylorus	
+	Whole stomach	
+	Anastomosis	
+	Hiatal hernia	
+	Diaphragma orifice	
+		
+Duodenum	Duodenum	Proximal
+	Duodenal bulb	Distal
+	D2 - 2nd part of duodenum	Whole
+	D3 - 3rd part of duodenum	Whole examined
+	D4 - 4th part of duodenum	
+	Upper duodenal knee/ superior duodenal angulus	
+	Ampullary region	
+	Major papilla	
+	Minor papilla	
+	Lower duodenal knee/ inferior duodenal angulus	
+	Anastomosis	
+		
+		
+Jejunum	Jejunum	xx cm from lig of Treitz
+	Ligament of Treitz	xx min from pylorus
+	Afferent loop	Proximal
+	Efferent loop	Distal
+	Jejunal crest	Whole
+	Roux-y-limb	Whole examined
+	anastomosis	type (specify)
+	stoma	
+		
+Ileum	Ileum	xx cm from ileocecal valve
+	Stoma	xx cm from stoma
+		xx min from cecum
+		Proximal 
+		Distal
+		whole
+		whole examined
+		
+Colon	Colon	xx cm from anus
+	anus	xx cm from stoma
+	rectum	proximal
+	Sigmoid colon	mid
+	Descending colon	distal
+	Splenic flexure	whole
+	Transverse colon	whole examined
+	Hepatic flexure	
+	Ascending colon	
+	Cecum	
+	Ileocecal valve	
+	Anastomosis	type (specify)
+	Pouch	
+	Stoma	
+		
+ORGAN	SITE	MODIFIER
+		
+Biliary tree	Major papilla	
+	Whole biliary tree	
+	Common bile duct	whole 
+		upper
+		mid
+		lower
+		terminal
+		xx cm from papilla
+		Above
+		Below
+	Cystic duct	
+	Cystic duct takeoff	
+	Gallbladder	
+	Bifurcation	
+	Anastomosis	
+	Left main duct	central
+	Right main duct	peripheral
+	Left intrahepatic branches	v
+	Right intrahepatic branches	v
+	Segment xx branch	v
+		
+Pancreatic duct	Major papilla	xx cm from the papilla
+	Minor papilla	whole
+	Whole pancreatic duct	upstream
+	head	downstream
+	neck	central
+	body	peripheral
+	tail	
+	Uncinate process	
+	ventral duct	
+	dorsal duct	
+	Duct of Santorini	
+	Duct of Wirsungi	
+	Side branches	

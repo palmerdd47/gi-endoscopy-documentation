@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>GI Endoscopy Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-mark">MBH</div>
+      <div>
+        <div class="brand-title">GI Endoscopy Documentation</div>
+        <div class="brand-sub">Mbingo Baptist Hospital · MST 3.0</div>
+      </div>
+    </div>
+    <div class="header-actions">
+      <span id="save-state" class="save-state">Not saved yet</span>
+      <button type="button" id="btn-new" class="btn btn-ghost">New report</button>
+      <button type="button" id="btn-preview" class="btn btn-ghost">Preview</button>
+      <button type="button" id="btn-print" class="btn btn-ghost">Print</button>
+      <button type="button" id="btn-download" class="btn btn-primary">Download</button>
+    </div>
+  </header>
+  <div class="layout">
+    <nav id="tree" class="tree" aria-label="Report outline"></nav>
+    <main id="main" class="main"></main>
+  </div>
+  <article id="print-root" class="print-root"></article>
+  <script src="app.js"></script>
+</body>
+</html>

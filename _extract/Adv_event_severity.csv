@@ -1,0 +1,18 @@
+F1	F2	F3	F4	F5	F6
+ADVERSE EVENT SEVERITY					
+					
+Outcome/severity	Incident	Mild	Moderate	Severe	Fatal
+					
+intraprocedure treatment, procedure completed	x				
+procedure aborted		x			
+					
+unplanned hospitalization <3 nights		x			
+unplanned hospitalization 4-10 nights			x		
+unplanned hospitalization >10 nights				x	
+					
+Repeat endoscopy			x		
+Interventional radiology			x		
+Surgery				x	
+					
+Permanent disability				x	
+Death					x

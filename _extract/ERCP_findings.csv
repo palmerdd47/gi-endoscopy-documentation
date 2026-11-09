@@ -1,0 +1,83 @@
+F1	F2	F3	F4
+ERCP FINDINGS			
+			
+Heading	Term	Attribute	Attr values
+			
+Papillary features		Location	Normal
+			High position
+			Low position
+			3rd part of duodenum
+			Intradiverticular
+			Peridiverticular
+			
+		Appearance	Normal
+			Hidden
+			Small
+			Adenomatous
+			Infiltrated
+			Congested
+			Lacerated
+			Previous EPT
+			Previous fistulotomy
+			Previous sphincteroplasty
+			Previous ampullectomy
+		Output	Bile
+			Pus
+			Debris
+			Blood
+			Mucin
+			Parasites
+			
+Ductal variants	Pancreas divisum	type	Complete
+			Incomplete
+	Pancreas annulare		
+	Common channel	Length	mm
+	Cystic duct implant	location	high
+			low
+	hepatic duct anomaly	type	specify
+			
+			
+			
+Ductal pathology	Irregularity	Distribution	Localized
+			Generalized
+	Dilation	Type	Localized-cystic
+			Generalized-prestenotic
+	Stenosis	Length	in mm
+		Degree	Moderate
+			Passable by catheter
+			Passable by wire
+			Not passable
+		Type	Extrinsic
+			Intrinsic
+	Stone	Number	Single
+			Multiple
+		Size	mm (biggest)
+		Obstructing	Yes
+			No 
+	Tumor	Type	Localized
+			Diffuse
+		Obstructing	yes
+			partially
+			no
+		Bismuth classification	Type I-IV
+	Cavity	Number	Single
+			Multiple
+		Size	in mm
+	Fistula	communicating structure	specify
+	Leak	Degree	Small
+			Moderate
+			Large
+	Extravasation		
+	Parenchymal filling		
+	Stent	Type	specify
+		Number	specify
+		Migrated	inward
+			outward
+	Filling defects	Type	sludge
+			air bubbles
+			parasites
+			stent/t-tube
+			mucus
+			Protein plugs
+			casts
+	Previous surgery	Type	specify

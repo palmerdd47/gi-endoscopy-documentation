@@ -1,0 +1,189 @@
+F1	F2	F3
+PROCEDURES - LUMINAL		
+		
+Method	Attribute	Attribute values
+Sampling	Lesion	Link to relevant finding OR
+		Normal location(s)
+	type	Biopsy
+		incomplete removal
+		complete piecemeal removal
+		en-bloc removal
+		brush sampling
+		fluid sampling
+	Final reading	Late entry
+Balloon dilation	(type)	Specify
+	Caliber	Specify
+	Time	Specify
+	End caliber	Specify
+Bougie dilation	Start caliber	Specify
+	End caliber	Specify
+Band ligation	Number	Specify
+	Result	Success
+		Partial success
+		Failure
+Injection therapy	Material	Specify
+	Volume	Specify
+	Result	Success
+		Partial success
+		Failure
+Clipping	(Type)	Specify
+	Number	Specify
+	Result	Success
+		Partial success
+		Failure
+Cautery	(type)	Specify
+	Result	Success
+		Partial success
+		Failure
+APC	Gas used	ml
+	Result	Success
+		Partial success
+		Failure
+Polypectomy	Method	Snare only
+		Loop and snare
+		Clips and snare
+	Pre-injection	yes/no
+	Pre-inj fluid	Specify
+	Pre-inj volume	ml
+	Result	Success
+		Partial success
+		Failure
+Hot biopsy	Result	Success
+		Partial success
+		Failure
+		
+Foreign body removal	Tool	Specify
+	Result	Success
+		Partial success
+		Failure
+EMR	Tool	Specify
+	Pre-inj fluid	Specify
+	Pre-inj volume	ml
+	Result	En bloc resection
+		Complete piece-meal resection
+		Partial resection
+		Failure
+	Specimen size	mm
+ESD	Tool	Specify
+	Pre-inj fluid	Specify
+	Pre-inj volume	ml
+	Result	En bloc resection
+		Complete piece-meal resection
+		Partial resection
+		Failure
+	Specimen size	mm
+		
+Stent placement	Type	Specify
+	Size	Specify
+	Pre-dilation	no/mm
+	Result	Success
+		Partial success
+		Failure
+PEG placement	Type	Specify
+	Size	Specify
+	Result	Success
+		Failure
+Tube placement	Type	Specify
+	Size	Specify
+	Location	Specify
+	Result	Success
+		Partial success
+		Failure
+Transmural drainage	Method	specify
+	Location	Specify
+	Lesion	Specify
+	EUS guidance	Yes/no
+	Material	specify
+	Stents placed	Specify
+	Result	Success
+		Partial success
+		Failure
+Ablation therapy	Type	Specify
+	Location	Specify
+	Settings	Specify
+		
+PROCEDURES ERCP		
+Method	Attribute	Attribute values
+Cannulation	Biliary	Not attempted
+		Incidental
+		Superficial
+		Deep
+		Failed
+	Pancreatic	Not attempted
+		Incidental
+		Superficial
+		Deep
+		Failed
+	(Minor papilla)	Not attempted
+		Superficial
+		Deep
+Opacification	Biliary	Complete
+		Incomplete, missing...
+		No biliary, due to...
+		No biliary intended
+	Pancreatic	Complete
+		Incomplete, missing...
+		No pancreatic, due to..
+		No pancreatic intended
+Papillotomy	Type 	Access/precut
+		Therapeutic
+		Fistulotomy
+	Tool	Wire knife
+		Needle knife
+	Duct	Bile duct
+		Pancreatic duct
+		Both ducts
+Balloon dilatation	Balloon caliber	mm
+	End caliber	mm
+Bougie dilatation	Bougie caliber	French
+	Result caliber	mm
+Stone extraction	Method	Balloon
+		Basket
+	Fragmentation	yes
+		no
+	Result  	Complete clearance
+		Partial clearance
+		Questionable
+Stent placement	Type	Specify
+	Number	Specify
+	Size/caliber	Specify
+Stent removal	Category	Transpapillary
+		Upwards dislocated
+	Tool	Specify
+	Result	Success
+		Failure
+Hemostasis	Method	Injection
+		Clips
+		Balloon compression
+		APC
+		Coagulation
+	Result	Success
+		Partial success
+		Failure
+		
+PROCEDURES EUS		
+Method	Attribute	Attribute values
+FNA	Needle	Specify
+	Passes	#
+	Volume	Ml or N/A
+	Appearance	Specify or N/A
+	Analysis	Cytology
+		Bacteriology
+		Chemistry
+Thru cut biopsy	Needle	Specify
+	Passes	#
+Celiac plexus block	Injection material	specify
+	Volume	ml
+	Result	Success
+		Partial success
+		Failure
+Contrast injection	location	specify
+	Result	Success
+		Partial success
+		Failure
+Duct drainage	Method	specify
+	Stents placed	Specify
+	Result	Success
+		Partial success
+		Failure
+		

@@ -1,0 +1,49 @@
+F1	F2	F3	F4	F5	F6	F7	F8	F9	F10	F11	F12	F13	F14	F15	F16	F17	F18	F19	F20
+EUS LESION-SPECIFIC ATTRIBUTE LISTS																			
+																			
+Shape/character	round	oval	triangular	linear	crescent-shaped	tortuous	tubular	lobulated	sessile	pedunculated									
+Intramural lesion	x	x	x	x	x			x											
+Polyp								x	x	x									
+Mass	x	x	x	x				x	x										
+Lymph node(s)	x	x	x	x	x			x											
+Extramural mass	x	x	x	x				x	x										
+Varices						x	x												
+Collaterals						x	x												
+Cyst	x	x	x					x											
+Parenchymal changes																			
+Pancr.  duct changes																			
+Calcification																			
+																			
+Shape/character	ulcerated	irregular	circumferential	enlarged	atrophic	diffuse	generalized	localized	number										
+Intramural lesion		x	x			x													
+Polyp	x	x							x										
+Mass	x	x	x						x										
+Lymph node(s)		x							x										
+Extramural mass		x							x										
+Varices																			
+Collaterals							x	x	x										
+Cyst		x							x										
+Parenchymal changes						x	x	x											
+Pancr.  duct changes							x	x											
+Calcification							x	x											
+																			
+Echofeatures	normal	anechoic	hypoechoic	isoechoic	hyperechoic	hyperechoic foci	hyperechoic strands	granular											
+Intramural lesion		x	x	x	x														
+Wall thickening		x	x	x	x														
+Polyp		x	x	x	x														
+Mass			x	x	x														
+Lymph node(s)			x	x	x	x													
+Extramural mass	x																		
+Parenchymal changes			x	x	x	x	x	x											
+Cholelithiasis					x														
+																			
+																			
+Echofeatures	homogeneous	heterogeneous	cystic components	solid	shadowing	distal enhancement													
+Intramural lesion	x	x	x	x	x	x													
+Wall thickening	x	x	x	x	x	x													
+Polyp	x	x	x	x	x	x													
+Mass	x	x	x	x	x	x													
+Lymph node(s)	x	x	x	x	x	x													
+Extramural mass																			
+Parenchymal changes	x	x	x	x															
+Cholelithiasis	x	x			x														

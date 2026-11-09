@@ -1,0 +1,5681 @@
+{
+  "severity": {
+    "criteria": [
+      {
+        "severity": "Incident",
+        "outcome": "intraprocedure treatment, procedure completed"
+      },
+      {
+        "severity": "Mild",
+        "outcome": "procedure aborted"
+      },
+      {
+        "severity": "Mild",
+        "outcome": "unplanned hospitalization \u003c3 nights"
+      },
+      {
+        "severity": "Moderate",
+        "outcome": "unplanned hospitalization 4-10 nights"
+      },
+      {
+        "severity": "Severe",
+        "outcome": "unplanned hospitalization \u003e10 nights"
+      },
+      {
+        "severity": "Moderate",
+        "outcome": "Repeat endoscopy"
+      },
+      {
+        "severity": "Moderate",
+        "outcome": "Interventional radiology"
+      },
+      {
+        "severity": "Severe",
+        "outcome": "Surgery"
+      },
+      {
+        "severity": "Severe",
+        "outcome": "Permanent disability"
+      },
+      {
+        "severity": "Fatal",
+        "outcome": "Death"
+      }
+    ],
+    "levels": [
+      "Incident",
+      "Mild",
+      "Moderate",
+      "Severe",
+      "Fatal"
+    ]
+  },
+  "adverseEvents": {
+    "intraprocedure": [
+      {
+        "type": "No adverse events during the procedure",
+        "attributes": []
+      },
+      {
+        "type": "Perforation of lumen",
+        "attributes": [
+          {
+            "specify": false,
+            "name": "Location",
+            "hints": [],
+            "values": [],
+            "useSites": true,
+            "comment": ""
+          },
+          {
+            "specify": false,
+            "name": "Communicating to",
+            "hints": [],
+            "values": [
+              "Retroperitoneum",
+              "Peritoneum",
+              "Mediastinum"
+            ],
+            "useSites": false,
+            "comment": ""
+          },
+          {
+            "specify": false,
+            "name": "type",
+            "hints": [],
+            "values": [
+              "By endoscope",
+              "Sphincterotomy-related",
+              "Polypectomy-related",
+              "Dilation-related"
+            ],
+            "useSites": false,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": "Bleeding",
+        "attributes": [
+          {
+            "specify": false,
+            "name": "location",
+            "hints": [],
+            "values": [],
+            "useSites": true,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": "Cardiopulmonary",
+        "attributes": [
+          {
+            "specify": false,
+            "name": "type",
+            "hints": [],
+            "values": [
+              "apnoea/hypopnea",
+              "bronchospasm",
+              "laryngospasm",
+              "hypotension",
+              "hypertension",
+              "arrest",
+              "dysrythmia",
+              "aspiration"
+            ],
+            "useSites": false,
+            "comment": ""
+          },
+          {
+            "specify": false,
+            "name": "Action",
+            "hints": [],
+            "values": [
+              "ventilation assist",
+              "Emergency code",
+              "list below"
+            ],
+            "useSites": false,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": "Equipment malfunction",
+        "attributes": [
+          {
+            "specify": true,
+            "name": "type",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": "Equipment impaction",
+        "attributes": [
+          {
+            "specify": true,
+            "name": "type",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": "Allergic reaction",
+        "attributes": [
+          {
+            "specify": true,
+            "name": "agent",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          },
+          {
+            "specify": true,
+            "name": "type",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          },
+          {
+            "specify": false,
+            "name": "Action",
+            "hints": [],
+            "values": [
+              "ventilation assist",
+              "Emergency code",
+              "list below"
+            ],
+            "useSites": false,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": "Other events",
+        "attributes": [
+          {
+            "specify": true,
+            "name": "Type",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          }
+        ]
+      }
+    ],
+    "postprocedure": [
+      {
+        "type": "cardiopulmonary event",
+        "attributes": [
+          {
+            "specify": true,
+            "name": "type",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          },
+          {
+            "specify": true,
+            "name": "date of onset",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          },
+          {
+            "specify": false,
+            "name": "relation",
+            "hints": [],
+            "values": [
+              "probable",
+              "possible",
+              "unlikely"
+            ],
+            "useSites": false,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": "Abdominal pain",
+        "attributes": [
+          {
+            "specify": true,
+            "name": "date of onset",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          },
+          {
+            "specify": false,
+            "name": "relation",
+            "hints": [],
+            "values": [
+              "probable",
+              "possible",
+              "unlikely"
+            ],
+            "useSites": false,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": "Infection",
+        "attributes": [
+          {
+            "specify": true,
+            "name": "type",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          },
+          {
+            "specify": true,
+            "name": "date of onset",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          },
+          {
+            "specify": false,
+            "name": "relation",
+            "hints": [],
+            "values": [
+              "probable",
+              "possible",
+              "unlikely"
+            ],
+            "useSites": false,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": "Thromboembolic event",
+        "attributes": [
+          {
+            "specify": true,
+            "name": "type",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          },
+          {
+            "specify": true,
+            "name": "date of onset",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          },
+          {
+            "specify": false,
+            "name": "relation",
+            "hints": [],
+            "values": [
+              "probable",
+              "possible",
+              "unlikely"
+            ],
+            "useSites": false,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": "Late perforation",
+        "attributes": [
+          {
+            "specify": true,
+            "name": "type",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          },
+          {
+            "specify": true,
+            "name": "date of onset",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": "Late bleeding",
+        "attributes": [
+          {
+            "specify": true,
+            "name": "type",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          },
+          {
+            "specify": true,
+            "name": "date of onset",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": "Pancreatitis",
+        "attributes": [
+          {
+            "specify": true,
+            "name": "date of onset",
+            "hints": [
+              "specify"
+            ],
+            "values": [],
+            "useSites": false,
+            "comment": ""
+          }
+        ]
+      }
+    ]
+  },
+  "eusFindings": [
+    {
+      "term": "Cyst",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Pancreas",
+        "Biliary tree",
+        "Colorectum"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "round",
+            "oval",
+            "triangular",
+            "lobulated",
+            "irregular",
+            "number"
+          ],
+          "name": "shape/character",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "well defined",
+            "poorly defined",
+            "smooth",
+            "irregular",
+            "encasing",
+            "abutting",
+            "loss of interface",
+            "invading",
+            "with intraluminal growth"
+          ],
+          "name": "Margins",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "anechoic",
+            "homogeneous",
+            "heterogeneous",
+            "debris present",
+            "septated",
+            "unilocular",
+            "multilocular",
+            "microcystic",
+            "macrocystic",
+            "no of cysts",
+            "microcyst size",
+            "wall thickness",
+            "wall irregularity",
+            "mural nodules",
+            "calcification",
+            "duct communication",
+            "associated mass"
+          ],
+          "name": "Cyst features",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "size (mm)",
+          "specify": true,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Intramural lesion",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Biliary tree",
+        "Colorectum"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "mucosa",
+            "m. Mucosa",
+            "submucosa",
+            "m propria",
+            "beyond m. propria",
+            "Transmural",
+            "All layers",
+            "Indeterminate"
+          ],
+          "name": "Outer limit",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "round",
+            "oval",
+            "triangular",
+            "linear",
+            "crescent-shaped",
+            "lobulated",
+            "irregular",
+            "circumferential",
+            "diffuse"
+          ],
+          "name": "shape/character",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "size (mm)",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "anechoic",
+            "hypoechoic",
+            "isoechoic",
+            "hyperechoic",
+            "homogeneous",
+            "heterogeneous",
+            "cystic components",
+            "solid",
+            "shadowing",
+            "distal enhancement"
+          ],
+          "name": "Echofeatures",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "encasement",
+            "Interface loss \u003c1.5cm",
+            "Interface loss \u003e1.5cm",
+            "abuttment",
+            "invasion",
+            "intraluminal growth"
+          ],
+          "name": "Invasion ext",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "mucosa",
+            "muscularis mucosa",
+            "submucosa",
+            "muscularis propria"
+          ],
+          "name": "Layer origin",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "well defined",
+            "poorly defined",
+            "smooth",
+            "irregular",
+            "encasing",
+            "abutting",
+            "loss of interface",
+            "invading",
+            "with intraluminal growth"
+          ],
+          "name": "Margins",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "invasion into",
+          "specify": true,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Parenchymal changes",
+      "organs": [
+        "Pancreas"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "diffuse",
+            "generalized",
+            "localized"
+          ],
+          "name": "shape/character",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "None",
+            "Minimal",
+            "Moderate",
+            "Extensive",
+            "Indeterminate"
+          ],
+          "name": "degree",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "hypoechoic",
+            "isoechoic",
+            "hyperechoic",
+            "hyperechoic foci",
+            "hyperechoic strands",
+            "granular",
+            "homogeneous",
+            "heterogeneous",
+            "cystic components",
+            "solid"
+          ],
+          "name": "Echofeatures",
+          "specify": false,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Lymph node(s)",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Pancreas",
+        "Biliary tree",
+        "Colorectum"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "round",
+            "oval",
+            "triangular",
+            "linear",
+            "crescent-shaped",
+            "lobulated",
+            "irregular",
+            "number"
+          ],
+          "name": "shape/character",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "size (mm)",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "number",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "hypoechoic",
+            "isoechoic",
+            "hyperechoic",
+            "hyperechoic foci",
+            "homogeneous",
+            "heterogeneous",
+            "cystic components",
+            "solid",
+            "shadowing",
+            "distal enhancement"
+          ],
+          "name": "Echofeatures",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "well defined",
+            "poorly defined",
+            "smooth",
+            "irregular",
+            "encasing",
+            "abutting",
+            "loss of interface",
+            "invading",
+            "with intraluminal growth"
+          ],
+          "name": "Margins",
+          "specify": false,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Bile duct changes",
+      "organs": [
+        "Biliary tree"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "normal",
+            "regular",
+            "irregular contour",
+            "beaded",
+            "dilated",
+            "narrowed",
+            "strictured",
+            "with hyperechoic walls"
+          ],
+          "name": "duct changes",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Stricture",
+      "organs": [
+        "Esophagus",
+        "Duodenum",
+        "Biliary tree",
+        "Colorectum"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [],
+          "name": "T-stage",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "None",
+            "Minimal",
+            "Moderate",
+            "Extensive",
+            "Indeterminate"
+          ],
+          "name": "degree",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "N-stage",
+          "specify": true,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Extramural mass",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Biliary tree",
+        "Colorectum"
+      ],
+      "attributes": [
+        {
+          "useSites": true,
+          "values": [],
+          "name": "Origin",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "round",
+            "oval",
+            "triangular",
+            "linear",
+            "lobulated",
+            "sessile",
+            "irregular",
+            "number"
+          ],
+          "name": "shape/character",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "size (mm)",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "T-stage",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "N-stage",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "encasement",
+            "Interface loss \u003c1.5cm",
+            "Interface loss \u003e1.5cm",
+            "abuttment",
+            "invasion",
+            "intraluminal growth"
+          ],
+          "name": "Invasion ext",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "normal"
+          ],
+          "name": "Echofeatures",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "well defined",
+            "poorly defined",
+            "smooth",
+            "irregular",
+            "encasing",
+            "abutting",
+            "loss of interface",
+            "invading",
+            "with intraluminal growth"
+          ],
+          "name": "Margins",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "invasion into",
+          "specify": true,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Cholelithiasis",
+      "organs": [
+        "Biliary tree"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [],
+          "name": "number",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "hyperechoic",
+            "homogeneous",
+            "heterogeneous",
+            "shadowing"
+          ],
+          "name": "Echofeatures",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "size (mm)",
+          "specify": true,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Polyp",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Colorectum"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "anechoic",
+            "hypoechoic",
+            "isoechoic",
+            "hyperechoic",
+            "homogeneous",
+            "heterogeneous",
+            "cystic components",
+            "solid",
+            "shadowing",
+            "distal enhancement"
+          ],
+          "name": "Echofeatures",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "lobulated",
+            "sessile",
+            "pedunculated",
+            "ulcerated",
+            "irregular",
+            "number"
+          ],
+          "name": "shape/character",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "size (mm)",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "mucosa",
+            "muscularis mucosa",
+            "submucosa",
+            "muscularis propria"
+          ],
+          "name": "Layer origin",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "well defined",
+            "poorly defined",
+            "smooth",
+            "irregular",
+            "encasing",
+            "abutting",
+            "loss of interface",
+            "invading",
+            "with intraluminal growth"
+          ],
+          "name": "Margins",
+          "specify": false,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Varices",
+      "organs": [
+        "Esophagus",
+        "Stomach"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "tortuous",
+            "tubular"
+          ],
+          "name": "shape/character",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "None",
+            "Minimal",
+            "Moderate",
+            "Extensive",
+            "Indeterminate"
+          ],
+          "name": "degree",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "size (mm)",
+          "specify": true,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Collaterals",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Colorectum"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "tortuous",
+            "tubular",
+            "generalized",
+            "localized",
+            "number"
+          ],
+          "name": "shape/character",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "None",
+            "Minimal",
+            "Moderate",
+            "Extensive",
+            "Indeterminate"
+          ],
+          "name": "degree",
+          "specify": false,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Pancreas divisum",
+      "organs": [],
+      "attributes": []
+    },
+    {
+      "term": "Pleural effusion",
+      "organs": [
+        "Esophagus"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "None",
+            "Minimal",
+            "Moderate",
+            "Extensive",
+            "Indeterminate"
+          ],
+          "name": "degree",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Pancreatic stent",
+      "organs": [
+        "Pancreas"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [],
+          "name": "number",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Gallbladder sludge",
+      "organs": [
+        "Biliary tree"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "None",
+            "Minimal",
+            "Moderate",
+            "Extensive",
+            "Indeterminate"
+          ],
+          "name": "degree",
+          "specify": false,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Ventral anlage",
+      "organs": [
+        "Pancreas"
+      ],
+      "attributes": []
+    },
+    {
+      "term": "Calcification",
+      "organs": [
+        "Pancreas"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "generalized",
+            "localized"
+          ],
+          "name": "shape/character",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "size (mm)",
+          "specify": true,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Biliary stent",
+      "organs": [
+        "Biliary tree"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [],
+          "name": "number",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Pancreatic duct changes",
+      "organs": [
+        "Pancreas"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "generalized",
+            "localized"
+          ],
+          "name": "shape/character",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "normal",
+            "regular",
+            "irregular contour",
+            "beaded",
+            "dilated",
+            "narrowed",
+            "strictured",
+            "with hyperechoic walls"
+          ],
+          "name": "duct changes",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "None",
+            "Minimal",
+            "Moderate",
+            "Extensive",
+            "Indeterminate"
+          ],
+          "name": "degree",
+          "specify": false,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Mass",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Pancreas",
+        "Biliary tree",
+        "Colorectum"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "mucosa",
+            "m. Mucosa",
+            "submucosa",
+            "m propria",
+            "beyond m. propria",
+            "Transmural",
+            "All layers",
+            "Indeterminate"
+          ],
+          "name": "Outer limit",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "Origin",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "round",
+            "oval",
+            "triangular",
+            "linear",
+            "lobulated",
+            "sessile",
+            "ulcerated",
+            "irregular",
+            "circumferential",
+            "number"
+          ],
+          "name": "shape/character",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "size (mm)",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "hypoechoic",
+            "isoechoic",
+            "hyperechoic",
+            "homogeneous",
+            "heterogeneous",
+            "cystic components",
+            "solid",
+            "shadowing",
+            "distal enhancement"
+          ],
+          "name": "Echofeatures",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "T-stage",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "N-stage",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "encasement",
+            "Interface loss \u003c1.5cm",
+            "Interface loss \u003e1.5cm",
+            "abuttment",
+            "invasion",
+            "intraluminal growth"
+          ],
+          "name": "Invasion ext",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "mucosa",
+            "muscularis mucosa",
+            "submucosa",
+            "muscularis propria"
+          ],
+          "name": "Layer origin",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "well defined",
+            "poorly defined",
+            "smooth",
+            "irregular",
+            "encasing",
+            "abutting",
+            "loss of interface",
+            "invading",
+            "with intraluminal growth"
+          ],
+          "name": "Margins",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "invasion into",
+          "specify": true,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Ascites",
+      "organs": [
+        "Stomach",
+        "Duodenum",
+        "Colorectum"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "None",
+            "Minimal",
+            "Moderate",
+            "Extensive",
+            "Indeterminate"
+          ],
+          "name": "degree",
+          "specify": false,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Cardiac effusion",
+      "organs": [
+        "Esophagus"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "None",
+            "Minimal",
+            "Moderate",
+            "Extensive",
+            "Indeterminate"
+          ],
+          "name": "degree",
+          "specify": false,
+          "hints": []
+        }
+      ]
+    },
+    {
+      "term": "Wall thickening",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Biliary tree",
+        "Colorectum"
+      ],
+      "attributes": [
+        {
+          "useSites": false,
+          "values": [
+            "anechoic",
+            "hypoechoic",
+            "isoechoic",
+            "hyperechoic",
+            "homogeneous",
+            "heterogeneous",
+            "cystic components",
+            "solid",
+            "shadowing",
+            "distal enhancement"
+          ],
+          "name": "Echofeatures",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [
+            "mucosa",
+            "muscularis mucosa",
+            "submucosa",
+            "muscularis propria"
+          ],
+          "name": "Layer origin",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "useSites": true,
+          "values": [],
+          "name": "location",
+          "specify": true,
+          "hints": []
+        },
+        {
+          "useSites": false,
+          "values": [],
+          "name": "size (mm)",
+          "specify": true,
+          "hints": []
+        }
+      ]
+    }
+  ],
+  "interventions": {
+    "luminal": [
+      {
+        "method": "Sampling",
+        "attributes": [
+          {
+            "values": [
+              "Link to relevant finding OR",
+              "Normal location(s)"
+            ],
+            "name": "Lesion",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [
+              "Biopsy",
+              "incomplete removal",
+              "complete piecemeal removal",
+              "en-bloc removal",
+              "brush sampling",
+              "fluid sampling"
+            ],
+            "name": "type",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [
+              "Late entry"
+            ],
+            "name": "Final reading",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Balloon dilation",
+        "attributes": [
+          {
+            "values": [],
+            "name": "(type)",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Caliber",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Time",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "End caliber",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          }
+        ]
+      },
+      {
+        "method": "Bougie dilation",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Start caliber",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "End caliber",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          }
+        ]
+      },
+      {
+        "method": "Band ligation",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Number",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Injection therapy",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Material",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Volume",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Clipping",
+        "attributes": [
+          {
+            "values": [],
+            "name": "(Type)",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Number",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Cautery",
+        "attributes": [
+          {
+            "values": [],
+            "name": "(type)",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "APC",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Gas used",
+            "specify": true,
+            "hints": [
+              "ml"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Polypectomy",
+        "attributes": [
+          {
+            "values": [
+              "Snare only",
+              "Loop and snare",
+              "Clips and snare"
+            ],
+            "name": "Method",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [
+              "Yes",
+              "No"
+            ],
+            "name": "Pre-injection",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [],
+            "name": "Pre-inj fluid",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Pre-inj volume",
+            "specify": true,
+            "hints": [
+              "ml"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Hot biopsy",
+        "attributes": [
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Foreign body removal",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Tool",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "EMR",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Tool",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Pre-inj fluid",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Pre-inj volume",
+            "specify": true,
+            "hints": [
+              "ml"
+            ]
+          },
+          {
+            "values": [
+              "En bloc resection",
+              "Complete piece-meal resection",
+              "Partial resection",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [],
+            "name": "Specimen size",
+            "specify": true,
+            "hints": [
+              "mm"
+            ]
+          }
+        ]
+      },
+      {
+        "method": "ESD",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Tool",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Pre-inj fluid",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Pre-inj volume",
+            "specify": true,
+            "hints": [
+              "ml"
+            ]
+          },
+          {
+            "values": [
+              "En bloc resection",
+              "Complete piece-meal resection",
+              "Partial resection",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [],
+            "name": "Specimen size",
+            "specify": true,
+            "hints": [
+              "mm"
+            ]
+          }
+        ]
+      },
+      {
+        "method": "Stent placement",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Type",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Size",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Pre-dilation",
+            "specify": true,
+            "hints": [
+              "no/mm"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "PEG placement",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Type",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Size",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Tube placement",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Type",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Size",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Location",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Transmural drainage",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Method",
+            "specify": true,
+            "hints": [
+              "specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Location",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Lesion",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [
+              "Yes",
+              "No"
+            ],
+            "name": "EUS guidance",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [],
+            "name": "Material",
+            "specify": true,
+            "hints": [
+              "specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Stents placed",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Ablation therapy",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Type",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Location",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Settings",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          }
+        ]
+      }
+    ],
+    "ercp": [
+      {
+        "method": "Cannulation",
+        "attributes": [
+          {
+            "values": [
+              "Not attempted",
+              "Incidental",
+              "Superficial",
+              "Deep",
+              "Failed"
+            ],
+            "name": "Biliary",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [
+              "Not attempted",
+              "Incidental",
+              "Superficial",
+              "Deep",
+              "Failed"
+            ],
+            "name": "Pancreatic",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [
+              "Not attempted",
+              "Superficial",
+              "Deep"
+            ],
+            "name": "(Minor papilla)",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Opacification",
+        "attributes": [
+          {
+            "values": [
+              "Complete",
+              "No biliary intended"
+            ],
+            "name": "Biliary",
+            "specify": false,
+            "hints": [
+              "Incomplete, missing...",
+              "No biliary, due to..."
+            ]
+          },
+          {
+            "values": [
+              "Complete",
+              "No pancreatic, due to..",
+              "No pancreatic intended"
+            ],
+            "name": "Pancreatic",
+            "specify": false,
+            "hints": [
+              "Incomplete, missing..."
+            ]
+          }
+        ]
+      },
+      {
+        "method": "Papillotomy",
+        "attributes": [
+          {
+            "values": [
+              "Access/precut",
+              "Therapeutic",
+              "Fistulotomy"
+            ],
+            "name": "Type",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [
+              "Wire knife",
+              "Needle knife"
+            ],
+            "name": "Tool",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [
+              "Bile duct",
+              "Pancreatic duct",
+              "Both ducts"
+            ],
+            "name": "Duct",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Balloon dilatation",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Balloon caliber",
+            "specify": true,
+            "hints": [
+              "mm"
+            ]
+          },
+          {
+            "values": [],
+            "name": "End caliber",
+            "specify": true,
+            "hints": [
+              "mm"
+            ]
+          }
+        ]
+      },
+      {
+        "method": "Bougie dilatation",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Bougie caliber",
+            "specify": true,
+            "hints": [
+              "French"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Result caliber",
+            "specify": true,
+            "hints": [
+              "mm"
+            ]
+          }
+        ]
+      },
+      {
+        "method": "Stone extraction",
+        "attributes": [
+          {
+            "values": [
+              "Balloon",
+              "Basket"
+            ],
+            "name": "Method",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [
+              "yes",
+              "no"
+            ],
+            "name": "Fragmentation",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [
+              "Complete clearance",
+              "Partial clearance",
+              "Questionable"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Stent placement",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Type",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Number",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Size/caliber",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          }
+        ]
+      },
+      {
+        "method": "Stent removal",
+        "attributes": [
+          {
+            "values": [
+              "Transpapillary",
+              "Upwards dislocated"
+            ],
+            "name": "Category",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [],
+            "name": "Tool",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Hemostasis",
+        "attributes": [
+          {
+            "values": [
+              "Injection",
+              "Clips",
+              "Balloon compression",
+              "APC",
+              "Coagulation"
+            ],
+            "name": "Method",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      }
+    ],
+    "eus": [
+      {
+        "method": "FNA",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Needle",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [
+              "#"
+            ],
+            "name": "Passes",
+            "specify": false,
+            "hints": []
+          },
+          {
+            "values": [],
+            "name": "Volume",
+            "specify": true,
+            "hints": [
+              "Ml or N/A"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Appearance",
+            "specify": true,
+            "hints": [
+              "Specify or N/A"
+            ]
+          },
+          {
+            "values": [
+              "Cytology",
+              "Bacteriology",
+              "Chemistry"
+            ],
+            "name": "Analysis",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Thru cut biopsy",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Needle",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [
+              "#"
+            ],
+            "name": "Passes",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Celiac plexus block",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Injection material",
+            "specify": true,
+            "hints": [
+              "specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Volume",
+            "specify": true,
+            "hints": [
+              "ml"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Contrast injection",
+        "attributes": [
+          {
+            "values": [],
+            "name": "location",
+            "specify": true,
+            "hints": [
+              "specify"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      },
+      {
+        "method": "Duct drainage",
+        "attributes": [
+          {
+            "values": [],
+            "name": "Method",
+            "specify": true,
+            "hints": [
+              "specify"
+            ]
+          },
+          {
+            "values": [],
+            "name": "Stents placed",
+            "specify": true,
+            "hints": [
+              "Specify"
+            ]
+          },
+          {
+            "values": [
+              "Success",
+              "Partial success",
+              "Failure"
+            ],
+            "name": "Result",
+            "specify": false,
+            "hints": []
+          }
+        ]
+      }
+    ]
+  },
+  "ercpFindings": [
+    {
+      "term": "Papillary features",
+      "organs": [
+        "Major papilla",
+        "Minor papilla"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Normal",
+            "High position",
+            "Low position",
+            "3rd part of duodenum",
+            "Intradiverticular",
+            "Peridiverticular"
+          ],
+          "name": "Location",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "Normal",
+            "Hidden",
+            "Small",
+            "Adenomatous",
+            "Infiltrated",
+            "Congested",
+            "Lacerated",
+            "Previous EPT",
+            "Previous fistulotomy",
+            "Previous sphincteroplasty",
+            "Previous ampullectomy"
+          ],
+          "name": "Appearance",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "Bile",
+            "Pus",
+            "Debris",
+            "Blood",
+            "Mucin",
+            "Parasites"
+          ],
+          "name": "Output",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Papillary features"
+    },
+    {
+      "term": "Pancreas divisum",
+      "organs": "Pancreatic duct",
+      "attributes": [
+        {
+          "values": [
+            "Complete",
+            "Incomplete"
+          ],
+          "name": "type",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Ductal variants"
+    },
+    {
+      "term": "Pancreas annulare",
+      "organs": "Pancreatic duct",
+      "attributes": [],
+      "heading": "Ductal variants"
+    },
+    {
+      "term": "Common channel",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Length",
+          "specify": true,
+          "hints": [
+            "mm"
+          ]
+        }
+      ],
+      "heading": "Ductal variants"
+    },
+    {
+      "term": "Cystic duct implant",
+      "organs": "Biliary tree",
+      "attributes": [
+        {
+          "values": [
+            "high",
+            "low"
+          ],
+          "name": "location",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Ductal variants"
+    },
+    {
+      "term": "hepatic duct anomaly",
+      "organs": "Biliary tree",
+      "attributes": [
+        {
+          "values": [],
+          "name": "type",
+          "specify": true,
+          "hints": [
+            "specify"
+          ]
+        }
+      ],
+      "heading": "Ductal variants"
+    },
+    {
+      "term": "Irregularity",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Localized",
+            "Generalized"
+          ],
+          "name": "Distribution",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Ductal pathology"
+    },
+    {
+      "term": "Dilation",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Localized-cystic",
+            "Generalized-prestenotic"
+          ],
+          "name": "Type",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Ductal pathology"
+    },
+    {
+      "term": "Stenosis",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Length",
+          "specify": true,
+          "hints": [
+            "in mm"
+          ]
+        },
+        {
+          "values": [
+            "Moderate",
+            "Passable by catheter",
+            "Passable by wire",
+            "Not passable"
+          ],
+          "name": "Degree",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "Extrinsic",
+            "Intrinsic"
+          ],
+          "name": "Type",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Ductal pathology"
+    },
+    {
+      "term": "Stone",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Single",
+            "Multiple"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [],
+          "name": "Size",
+          "specify": true,
+          "hints": [
+            "mm (biggest)"
+          ]
+        },
+        {
+          "values": [
+            "Yes",
+            "No"
+          ],
+          "name": "Obstructing",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Ductal pathology"
+    },
+    {
+      "term": "Tumor",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Localized",
+            "Diffuse"
+          ],
+          "name": "Type",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "yes",
+            "partially",
+            "no"
+          ],
+          "name": "Obstructing",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "Type I",
+            "Type II",
+            "Type III",
+            "Type IV"
+          ],
+          "name": "Bismuth classification",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Ductal pathology"
+    },
+    {
+      "term": "Cavity",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Single",
+            "Multiple"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [],
+          "name": "Size",
+          "specify": true,
+          "hints": [
+            "in mm"
+          ]
+        }
+      ],
+      "heading": "Ductal pathology"
+    },
+    {
+      "term": "Fistula",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "communicating structure",
+          "specify": true,
+          "hints": [
+            "specify"
+          ]
+        }
+      ],
+      "heading": "Ductal pathology"
+    },
+    {
+      "term": "Leak",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Small",
+            "Moderate",
+            "Large"
+          ],
+          "name": "Degree",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Ductal pathology"
+    },
+    {
+      "term": "Extravasation",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [],
+      "heading": "Ductal pathology"
+    },
+    {
+      "term": "Parenchymal filling",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [],
+      "heading": "Ductal pathology"
+    },
+    {
+      "term": "Stent",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Type",
+          "specify": true,
+          "hints": [
+            "specify"
+          ]
+        },
+        {
+          "values": [],
+          "name": "Number",
+          "specify": true,
+          "hints": [
+            "specify"
+          ]
+        },
+        {
+          "values": [
+            "inward",
+            "outward"
+          ],
+          "name": "Migrated",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Ductal pathology"
+    },
+    {
+      "term": "Filling defects",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "sludge",
+            "air bubbles",
+            "parasites",
+            "stent/t-tube",
+            "mucus",
+            "Protein plugs",
+            "casts"
+          ],
+          "name": "Type",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Ductal pathology"
+    },
+    {
+      "term": "Previous surgery",
+      "organs": [
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Type",
+          "specify": true,
+          "hints": [
+            "specify"
+          ]
+        }
+      ],
+      "heading": "Ductal pathology"
+    }
+  ],
+  "reasons": {
+    "UPPER ENDOSCOPY": [
+      {
+        "qualifiers": [
+          "Duration",
+          "Degree"
+        ],
+        "category": "Symptoms",
+        "terms": [
+          "Abdominal distress/pain",
+          "Dyspepsia",
+          "Heartburn",
+          "Dysphagia",
+          "Odynophagia",
+          "Vomiting",
+          "Hematemesis",
+          "Melena",
+          "Nausea",
+          "Weight loss",
+          "Anemia",
+          "Diarrhea"
+        ]
+      },
+      {
+        "qualifiers": [
+          "Suspected",
+          "Established",
+          "Follow-up of",
+          "Sampling of",
+          "Treatment of",
+          "Screening for"
+        ],
+        "category": "Diseases",
+        "terms": [
+          "Achalasia",
+          "Anastomic leak",
+          "Angiectasia",
+          "Atrophic gastritis",
+          "Barretts esophagus",
+          "Caustic ingestion",
+          "Celiac disease",
+          "Diverticulum",
+          "Duodenal stricture",
+          "Duodenal ulcer",
+          "Esophageal stricture",
+          "Esophageal varices",
+          "Fistula",
+          "Foreign body",
+          "Gastric ulcer",
+          "Gastric varices",
+          "GERD",
+          "Lymphoma",
+          "Metastasis, unknown origin",
+          "Other esophagitis",
+          "Pernicious anaemia",
+          "Polyp",
+          "Precancrous lesions",
+          "Pyloric stenosis",
+          "Reflux esophagitis",
+          "Superficial neoplastic lesion",
+          "Tumor/mass"
+        ]
+      }
+    ],
+    "ENTEROSCOPY": [
+      {
+        "qualifiers": [
+          "Duration",
+          "Degree"
+        ],
+        "category": "Symptoms",
+        "terms": [
+          "Abdominal distress/pain",
+          "Vomiting",
+          "Melena",
+          "Anemia",
+          "Diarrhea"
+        ]
+      },
+      {
+        "qualifiers": [
+          "Suspected",
+          "Established",
+          "Follow-up of",
+          "Sampling of",
+          "Treatment of",
+          "Screening for"
+        ],
+        "category": "Diseases",
+        "terms": [
+          "Angiectasia",
+          "Celiac disease",
+          "Crohns disease",
+          "Hereditary polyposis syndrome",
+          "Lymphoma",
+          "NSAID enteropathy",
+          "Polyps",
+          "Stricture",
+          "mass"
+        ]
+      }
+    ],
+    "EUS": [
+      {
+        "qualifiers": [
+          "Duration",
+          "Degree"
+        ],
+        "category": "Symptoms",
+        "terms": [
+          "Abdominal pain",
+          "Diarrhea",
+          "Jaundice",
+          "Pancreatobiliary pain",
+          "Weight loss"
+        ]
+      },
+      {
+        "qualifiers": [
+          "Suspected",
+          "Established",
+          "Follow-up of",
+          "Sampling of",
+          "Staging of",
+          "Treatment of",
+          "Screening for"
+        ],
+        "category": "Diseases",
+        "terms": [
+          "Abdominal mass",
+          "Ampullary mass",
+          "Bile duct mass",
+          "Bile duct stone",
+          "Bile duct stricture",
+          "Colorectal intramural lesion",
+          "Colorectal mass",
+          "Colorectal stricture",
+          "Duodenal intramural lesion",
+          "Duodenal mass",
+          "Duodenal stricture",
+          "Esophageal intramural lesion",
+          "Esophageal mass",
+          "Esophageal stricture",
+          "Gastric intramural lesion",
+          "Gastric mass",
+          "Liver mass",
+          "Mediastinal lymph node/mass",
+          "Pancreatic cyst",
+          "Pancreatic mass",
+          "Pancreatic pseudocyst",
+          "Pancreatic stone",
+          "Pancreatitis - acute",
+          "Pancreatitis - chronic",
+          "Perirectal mass",
+          "Pulmonary mass"
+        ]
+      }
+    ],
+    "COLONOSCOPY": [
+      {
+        "qualifiers": [
+          "Duration",
+          "Degree"
+        ],
+        "category": "Symptoms",
+        "terms": [
+          "Hematochezia",
+          "Melena",
+          "Diarrhea",
+          "Abdominal distress/pain",
+          "Altered bowel habits",
+          "Anemia",
+          "Weight loss",
+          "Constipation",
+          "Defecation disorder",
+          "Abdominal mass"
+        ]
+      },
+      {
+        "qualifiers": [
+          "Suspected",
+          "Established",
+          "Follow-up of",
+          "Sampling of",
+          "Treatment of",
+          "Screening for"
+        ],
+        "category": "Diseases",
+        "terms": [
+          "Anastomotic leak",
+          "Angiectasia",
+          "Colonic obstruction",
+          "Colorectal cancer",
+          "Crohns disease",
+          "Diverticula",
+          "Endocrine mass",
+          "Fistula",
+          "Ischemic colitis",
+          "Metastasis, unknown origin",
+          "Other colitis",
+          "Polyps",
+          "Pouchitis",
+          "Pseudomembranous colitis",
+          "Superficial neoplastic lesion",
+          "Ulcerative colitis"
+        ]
+      }
+    ],
+    "ERCP": [
+      {
+        "qualifiers": [
+          "Duration",
+          "Degree"
+        ],
+        "category": "Symptoms",
+        "terms": [
+          "Jaundice",
+          "Pancreatobiliary pain",
+          "Pruritus"
+        ]
+      },
+      {
+        "qualifiers": [
+          "Suspected",
+          "Established",
+          "Follow-up of",
+          "Sampling of",
+          "Treatment of",
+          "Screening for"
+        ],
+        "category": "Diseases",
+        "terms": [
+          "Acute pancreatitis",
+          "Ampullary mass",
+          "Anastomotic stricture",
+          "Bile duct injury",
+          "Bile duct leak",
+          "Bile duct stone",
+          "Bile duct stricture",
+          "Carolis disease",
+          "Choledochal cyst",
+          "Choledochocele",
+          "Chronic pancreatitis",
+          "Fistula",
+          "Gallbladder polyp",
+          "Gallbladder stone",
+          "Gallbladder mass",
+          "Hepatobiliary mass",
+          "IPMT",
+          "Mirizzi syndrome",
+          "Pancreatic duct leak",
+          "Pancreatic injury",
+          "Pancreatic pseudocyst",
+          "Pancreatic stone",
+          "Pancreatic mass",
+          "Papillary dysfunction",
+          "Parasites",
+          "Parenchymal liver disease",
+          "Primary sclerosing cholangitis",
+          "Purulent cholangitis",
+          "Stent dysfunction"
+        ]
+      }
+    ]
+  },
+  "diagnoses": {
+    "UPPER ENDOSCOPY": [
+      "Aberrant pancreas",
+      "Achalasia",
+      "Barretts esophagus",
+      "Benign stricture",
+      "Bleeding of unknown origin",
+      "Coeliac disease",
+      "Crohns disease",
+      "Dieulafoy lesion",
+      "Duodenal benign tumor",
+      "Duodenal bulb deformity",
+      "Duodenal cancer",
+      "Duodenal diverticulum",
+      "Duodenal fistula",
+      "Duodenal polyp",
+      "Duodenal postoperative appearance",
+      "Duodenal submucosal tumor",
+      "Duodenal superficial neoplasm",
+      "Duodenal ulcer",
+      "Duodenal ulcer with bleeding",
+      "Duodenopathy - erosive",
+      "Duodenopathy - hemorrhagic",
+      "Duodenopathy - hyperemic",
+      "Eosinophilic esophagitis",
+      "Esophageal benign tumor",
+      "Esophageal caustic injury",
+      "Esophageal cancer",
+      "Esophageal candidiasis",
+      "Esophageal diverticulum",
+      "Esophageal fistula",
+      "Esophageal foreign body",
+      "Esophageal polyp",
+      "Esophageal postoperative apperance",
+      "Esophageal stricture",
+      "Esophageal superficial neoplasm",
+      "Esophageal submucosal tumor",
+      "Esophageal varices",
+      "Extrinsic compression",
+      "Gastric benign tumor",
+      "Gastric cancer",
+      "Gastric diverticulum",
+      "Gastric fistula",
+      "Gastric foreign body",
+      "Gastric caustic injury",
+      "Gastric lymphoma",
+      "Gastric polyp(s)",
+      "Gastric postoperative appearance",
+      "Gastric retention",
+      "Gastric submucosal tumor",
+      "Gastric superficial neoplasm",
+      "Gastric ulcer",
+      "Gastric ulcer with bleeding",
+      "Gastric ulcer-anastomotic",
+      "Gastric varices",
+      "Gastropathy-erosive",
+      "Gastropathy-hemorrhagic",
+      "Gastropathy-hyperemic",
+      "Gastropathy-hypertrophic",
+      "Gastropathy-NSAID-related",
+      "Gastropathy-portal hypertensive",
+      "Gastropathy-varioloform",
+      "Hiatus hernia",
+      "Mallory-Weiss tear",
+      "Other esophagitis",
+      "Parasites",
+      "Post sclerotherapy appearance",
+      "Pyloric stenosis",
+      "Reflux esophagitis",
+      "Schatzki ring",
+      "Scar",
+      "Submucosal tumor"
+    ],
+    "Enteroscopy": [
+      "Angiectasia",
+      "Bleeding, unknown origin",
+      "Celiac disease",
+      "Crohns disease",
+      "Diverticula",
+      "Enteropathy - erosive",
+      "Enteropathy - hemorrhagic",
+      "Enteropathy - hyperemic",
+      "Enteropathy - NSAID-related",
+      "Erosions",
+      "FAP",
+      "GIST",
+      "Graft v host disease",
+      "Juvenile polyposis",
+      "Lipoma",
+      "Lymphangiectasia",
+      "Lymphoma",
+      "NSAID-enteropathy",
+      "Parasites",
+      "Peutz-Jæger polyposis",
+      "Polyp(s)",
+      "Radiation enteritis",
+      "Small bowel benign tumor",
+      "Small bowel malignant tumor",
+      "Small bowel superficial neoplasm",
+      "Submucosal tumor",
+      "Ulcer"
+    ],
+    "EUS": [
+      "Aortic aneurysm",
+      "Ascites",
+      "Bile duct dilation",
+      "Bile duct stone",
+      "Bile duct stricture",
+      "Bile duct tumor",
+      "Biliary sludge",
+      "Colorectal cancer",
+      "Colorectal polyp",
+      "Colorectal stricture",
+      "Colorectal submucosal mass",
+      "Colorectal ulcer",
+      "Crohns disease",
+      "Duodenal cancer",
+      "Duodenal polyp",
+      "Duodenal stricture",
+      "Duodenal submucosal mass",
+      "Duodenal ulcer",
+      "Endocrine tumor",
+      "Esophageal cancer",
+      "Esophageal mass",
+      "Esophageal polyp",
+      "Esophageal stricture",
+      "Esophageal submucosal mass",
+      "Esophageal ulcer",
+      "Gallbladder sludge",
+      "Gallbladder stone",
+      "Gastric cancer",
+      "Gastric polyp",
+      "Gastric submucosal mass",
+      "Gastric ulcer",
+      "GIST tumor",
+      "IPMT",
+      "linitis plastica",
+      "lipoma",
+      "lymphoma",
+      "Mediastinal lymph node(s)",
+      "Mediastinal mass",
+      "Menetrier’s disease",
+      "Mesenteric artery aneurysm",
+      "Pancreas divisum",
+      "Pancreatic cancer",
+      "Pancreatic duct dilation",
+      "Pancreatic duct stricture",
+      "Pancreatic mass",
+      "Pancreatic pseudocyst",
+      "Pancreatic stone",
+      "Pancreatitis - acute",
+      "Pancreatitis - chronic",
+      "Papillary mass",
+      "Pericardial effusion",
+      "Pleural effusion",
+      "Polyp",
+      "portal vein thrombosis",
+      "postradiation changes",
+      "pseudoaneurysm",
+      "Splenic artery aneurysm",
+      "Submucosal tumor",
+      "TNM-stage",
+      "Ulcerative colitis",
+      "Varices",
+      "Wall thickening"
+    ],
+    "Colonoscopy": [
+      "angiectasia",
+      "Bleeding of unknown origin",
+      "Colitis - ischemic",
+      "Colitis - pseudomembranous",
+      "Colorectal cancer",
+      "Colorectal superficial neoplasm",
+      "Condylomata",
+      "Crohns disease - active",
+      "Crohns disease - fulminant",
+      "Crohns disease - quiescent",
+      "Diverticulitis",
+      "Diverticulosis",
+      "Fistula",
+      "Foreign body",
+      "Hemorrhoids",
+      "Ileitis",
+      "Lipoma",
+      "Lymphoma",
+      "Melanosis",
+      "Parasites",
+      "Pneumatosis coli",
+      "Polyp",
+      "Polyposis syndrome",
+      "Postoperative appearance",
+      "Proctitis",
+      "Rectal ulcer",
+      "Solitary ulcer",
+      "Stricture - inflammatory",
+      "Stricture - malignant",
+      "Stricture - postoperative",
+      "Submucosal tumor",
+      "Ulcerative colitis - active",
+      "Ulcerative colitis - fulminant",
+      "Ulcerative colitis - quiescent"
+    ],
+    "ERCP": [
+      "Abnormal pancreatobiliary junction",
+      "Anastomotic stricture",
+      "Biliary fistula/leak",
+      "Biliary injury",
+      "Biliary occlusion",
+      "Biliary stent occlusion",
+      "Biliary stone(s)",
+      "Biliary stricture",
+      "Carolis disease",
+      "Choledochal cyst",
+      "Choledochocele",
+      "Cystic duct stones",
+      "Gallbladder stone(s)",
+      "Gallbladder tumor",
+      "Hemobilia",
+      "IPMT",
+      "Kolangiocarcinoma",
+      "Liver parenchymal disease",
+      "Mirizzi syndrome",
+      "Pancreas annulare",
+      "Pancreas divisum",
+      "Pancreatic cyst",
+      "Pancreatic duct fistula/leak",
+      "Pancreatic duct injury",
+      "Pancreatic duct stricture",
+      "Pancreatic stent occlusion",
+      "Pancreatic stone",
+      "Pancreatic tumor",
+      "Pancreatitis - acute",
+      "Pancreatitis - chronic",
+      "Papillary stenosis",
+      "Papillary tumor",
+      "Primary sclerosing cholangitis",
+      "Sump syndrome",
+      "Suppurative cholangitis"
+    ]
+  },
+  "procedures": [
+    {
+      "findingSet": "luminal",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum"
+      ],
+      "id": "EGD",
+      "reasonKey": "UPPER ENDOSCOPY",
+      "family": "luminal",
+      "interventionKeys": [
+        "luminal"
+      ],
+      "label": "Upper endoscopy (EGD)",
+      "diagnosisKeys": [
+        "UPPER ENDOSCOPY"
+      ]
+    },
+    {
+      "findingSet": "luminal",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "id": "Enteroscopy",
+      "reasonKey": "ENTEROSCOPY",
+      "family": "luminal",
+      "interventionKeys": [
+        "luminal"
+      ],
+      "label": "Enteroscopy",
+      "diagnosisKeys": [
+        "Enteroscopy"
+      ]
+    },
+    {
+      "findingSet": "luminal",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "id": "VCE",
+      "reasonKey": "ENTEROSCOPY",
+      "family": "luminal",
+      "interventionKeys": [
+        "luminal"
+      ],
+      "label": "Capsule endoscopy",
+      "diagnosisKeys": [
+        "Enteroscopy",
+        "Colonoscopy"
+      ]
+    },
+    {
+      "findingSet": "luminal",
+      "organs": [
+        "Ileum",
+        "Colon"
+      ],
+      "id": "Colonoscopy",
+      "reasonKey": "COLONOSCOPY",
+      "family": "luminal",
+      "interventionKeys": [
+        "luminal"
+      ],
+      "label": "Colonoscopy",
+      "diagnosisKeys": [
+        "Colonoscopy"
+      ]
+    },
+    {
+      "findingSet": "ercp",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Major papilla",
+        "Minor papilla",
+        "Biliary tree",
+        "Pancreatic duct"
+      ],
+      "id": "ERCP",
+      "reasonKey": "ERCP",
+      "family": "ercp",
+      "interventionKeys": [
+        "ercp",
+        "luminal"
+      ],
+      "label": "ERCP",
+      "diagnosisKeys": [
+        "ERCP"
+      ]
+    },
+    {
+      "findingSet": "eus",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Pancreas",
+        "Biliary tree",
+        "Colorectum"
+      ],
+      "id": "EUS",
+      "reasonKey": "EUS",
+      "family": "eus",
+      "interventionKeys": [
+        "eus"
+      ],
+      "label": "EUS",
+      "diagnosisKeys": [
+        "EUS"
+      ]
+    }
+  ],
+  "source": "MST 3.0 tables (mst30_tables.xls)",
+  "actionComments": {
+    "endoscopic intervention": "for intraproc events only",
+    "aborted procedure": "for intraproc events only"
+  },
+  "luminalFindings": [
+    {
+      "term": "Normal",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [],
+      "heading": "Lumen"
+    },
+    {
+      "term": "Dilation",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [],
+      "heading": "Lumen"
+    },
+    {
+      "term": "Stenosis",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Benign",
+            "Malignant"
+          ],
+          "name": "Appearance",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [],
+          "name": "Length",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [
+            "Yes",
+            "After dilation",
+            "No"
+          ],
+          "name": "Traversable",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Lumen"
+    },
+    {
+      "term": "Compression",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "small",
+            "large"
+          ],
+          "name": "size",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Lumen"
+    },
+    {
+      "term": "Diverticulum",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Single",
+            "Multiple"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "Small",
+            "Large"
+          ],
+          "name": "Size",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "Narrow",
+            "Wide"
+          ],
+          "name": "Neck",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "None",
+            "Food",
+            "Blood",
+            "Clot"
+          ],
+          "name": "Content",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Lumen"
+    },
+    {
+      "term": "Previous surgery",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Type",
+          "specify": true,
+          "hints": [
+            "Specify"
+          ]
+        }
+      ],
+      "heading": "Lumen"
+    },
+    {
+      "term": "Deformity",
+      "organs": [
+        "Stomach",
+        "Duodenum"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Type",
+          "specify": true,
+          "hints": [
+            "Specify"
+          ]
+        }
+      ],
+      "heading": "Lumen"
+    },
+    {
+      "term": "Ring/web",
+      "organs": "Esophagus",
+      "attributes": [
+        {
+          "values": [],
+          "name": "Lumen",
+          "specify": true,
+          "hints": [
+            "xx mm"
+          ]
+        }
+      ],
+      "heading": "Lumen"
+    },
+    {
+      "term": "Hiatal hernia",
+      "organs": [
+        "Esophagus",
+        "Stomach"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "cm from incisors"
+          ],
+          "name": "Upper border",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "cm from incisors"
+          ],
+          "name": "Lower border",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Lumen"
+    },
+    {
+      "term": "Z-line",
+      "organs": "Esophagus",
+      "attributes": [
+        {
+          "values": [
+            "cm from incisors"
+          ],
+          "name": "position",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Lumen"
+    },
+    {
+      "term": "Foreign body",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Type",
+          "specify": true,
+          "hints": [
+            "Specify.."
+          ]
+        }
+      ],
+      "heading": "Contents"
+    },
+    {
+      "term": "Blood",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Fresh",
+            "Clot",
+            "Hematin"
+          ],
+          "name": "Type",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Contents"
+    },
+    {
+      "term": "Food",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum"
+      ],
+      "attributes": [],
+      "heading": "Contents"
+    },
+    {
+      "term": "Bezoar",
+      "organs": [
+        "Esophagus",
+        "Stomach"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Type",
+          "specify": true,
+          "hints": [
+            "Specify.."
+          ]
+        }
+      ],
+      "heading": "Contents"
+    },
+    {
+      "term": "Fluid",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Type",
+          "specify": true,
+          "hints": [
+            "Specify.."
+          ]
+        }
+      ],
+      "heading": "Contents"
+    },
+    {
+      "term": "Parasites",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Type",
+          "specify": true,
+          "hints": [
+            "Specify.."
+          ]
+        }
+      ],
+      "heading": "Contents"
+    },
+    {
+      "term": "Stent",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Type",
+          "specify": true,
+          "hints": [
+            "Specify.."
+          ]
+        }
+      ],
+      "heading": "Contents"
+    },
+    {
+      "term": "Gastrostomy",
+      "organs": "Stomach",
+      "attributes": [
+        {
+          "values": [],
+          "name": "Type",
+          "specify": true,
+          "hints": [
+            "Specify.."
+          ]
+        }
+      ],
+      "heading": "Contents"
+    },
+    {
+      "term": "Faeces",
+      "organs": "Colon",
+      "attributes": [],
+      "heading": "Contents"
+    },
+    {
+      "term": "Exudate",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [],
+      "heading": "Contents"
+    },
+    {
+      "term": "Erythematous",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Localised",
+            "Patchy",
+            "Generalised"
+          ],
+          "name": "Distribution",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Edematous",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Localised",
+            "Patchy",
+            "Generalised"
+          ],
+          "name": "Distribution",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Granular",
+      "organs": [
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Localised",
+            "Patchy",
+            "Generalised"
+          ],
+          "name": "Distribution",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Nodular",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Localised",
+            "Patchy",
+            "Generalised"
+          ],
+          "name": "Distribution",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Friable",
+      "organs": [
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Localised",
+            "Patchy",
+            "Generalised"
+          ],
+          "name": "Distribution",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Hemorrhagic",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Localised",
+            "Patchy",
+            "Generalised"
+          ],
+          "name": "Distribution",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Petechial",
+      "organs": [
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Localised",
+            "Patchy",
+            "Generalised"
+          ],
+          "name": "Distribution",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Atrophic",
+      "organs": [
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Localised",
+            "Patchy",
+            "Generalised"
+          ],
+          "name": "Distribution",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Sclerosis/scarring",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Barretts esophagus",
+      "organs": "Esophagus",
+      "attributes": [
+        {
+          "values": [],
+          "name": "Extent",
+          "specify": true,
+          "hints": [
+            "CM-classification"
+          ]
+        }
+      ],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Esophagitis",
+      "organs": "Esophagus",
+      "attributes": [
+        {
+          "values": [],
+          "name": "Grade",
+          "specify": true,
+          "hints": [
+            "LA-classification"
+          ]
+        },
+        {
+          "values": [
+            "Yes",
+            "Bleeding stigmata",
+            "No"
+          ],
+          "name": "Bleeding",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Candidosis/candidiasis",
+      "organs": "Esophagus",
+      "attributes": [
+        {
+          "values": [
+            "Localised",
+            "Patchy",
+            "Generalised"
+          ],
+          "name": "Distribution",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Scalloping",
+      "organs": [
+        "Duodenum",
+        "Jejunum"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Localised",
+            "Patchy",
+            "Generalised"
+          ],
+          "name": "Distribution",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Pathological vascular pattern",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Localised",
+            "Patchy",
+            "Generalised"
+          ],
+          "name": "Distribution",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Ulcerated mucosa",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Pseudomembranes",
+      "organs": "Colon",
+      "attributes": [],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Melanosis",
+      "organs": "Colon",
+      "attributes": [],
+      "heading": "Mucosa"
+    },
+    {
+      "term": "Angiectasia",
+      "organs": [
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [
+            "Single",
+            "Multiple"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "Yes",
+            "No"
+          ],
+          "name": "Bleeding",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Flat lesions"
+    },
+    {
+      "term": "Dieulafoy lesion",
+      "organs": [
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [
+            "Single",
+            "Multiple"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "Spurting",
+            "Oozing",
+            "Clot",
+            "No"
+          ],
+          "name": "Bleeding",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Flat lesions"
+    },
+    {
+      "term": "Ectopic gastric mucosa",
+      "organs": "Esophagus",
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        }
+      ],
+      "heading": "Flat lesions"
+    },
+    {
+      "term": "Flat/elevated superficial lesion",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Single",
+            "Multiple"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [],
+          "name": "Free margins",
+          "specify": true,
+          "hints": [
+            "To relevant structure(s)"
+          ]
+        },
+        {
+          "values": [],
+          "name": "Type",
+          "specify": true,
+          "hints": [
+            "Japan classification"
+          ]
+        },
+        {
+          "values": [],
+          "name": "Surface",
+          "specify": true,
+          "hints": [
+            "Kudo classification"
+          ]
+        },
+        {
+          "values": [
+            "Yes",
+            "Stigmata",
+            "No"
+          ],
+          "name": "Bleeding",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Flat lesions"
+    },
+    {
+      "term": "Nodule",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [
+            "Single",
+            "Multiple"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Protruding lesions"
+    },
+    {
+      "term": "Polyp",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Single",
+            "Multiple"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [
+            "Pedunculated",
+            "Semipedunculated",
+            "Sessile",
+            "Flat elevated"
+          ],
+          "name": "Shape",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [],
+          "name": "Surface",
+          "specify": true,
+          "hints": [
+            "Kudo classification"
+          ]
+        },
+        {
+          "values": [
+            "Malignant",
+            "Adenomatous",
+            "Hyperplastic",
+            "Inflammatory",
+            "Pseudopolyp"
+          ],
+          "name": "Appearance",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "Yes",
+            "Stigmata",
+            "No"
+          ],
+          "name": "Bleeding",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Protruding lesions"
+    },
+    {
+      "term": "Tumor/mass",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Single",
+            "Multiple"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [],
+          "name": "Free margins",
+          "specify": true,
+          "hints": [
+            "To relevant structure(s)"
+          ]
+        },
+        {
+          "values": [
+            "Paris type 0-4",
+            "Japan class for type 0"
+          ],
+          "name": "Type",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [],
+          "name": "Surface",
+          "specify": true,
+          "hints": [
+            "Kudo classification"
+          ]
+        },
+        {
+          "values": [
+            "Yes",
+            "Stigmata",
+            "No"
+          ],
+          "name": "Bleeding",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Protruding lesions"
+    },
+    {
+      "term": "Varices",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "#"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "1",
+            "2",
+            "3"
+          ],
+          "name": "Grade",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [
+            "Spurting",
+            "Oozing",
+            "Stigmata",
+            "No"
+          ],
+          "name": "Bleeding",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "yes",
+            "no"
+          ],
+          "name": "Red signs",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Protruding lesions"
+    },
+    {
+      "term": "Enlarged folds",
+      "organs": "Stomach",
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [
+            "Localized",
+            "Generalized"
+          ],
+          "name": "Distribution",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Protruding lesions"
+    },
+    {
+      "term": "Ectopic pancreas",
+      "organs": [
+        "Stomach",
+        "Duodenum"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        }
+      ],
+      "heading": "Protruding lesions"
+    },
+    {
+      "term": "Enlarged Brunners glands",
+      "organs": "Duodenum",
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        }
+      ],
+      "heading": "Protruding lesions"
+    },
+    {
+      "term": "Hemorrhoids",
+      "organs": "Colon",
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [
+            "#"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "name": "Grade (Goligher)",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Protruding lesions"
+    },
+    {
+      "term": "Condylomas",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [
+            "A few",
+            "Multiple"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Protruding lesions"
+    },
+    {
+      "term": "Erosion",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [
+            "Single",
+            "Multiple"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "Yes",
+            "Stigmata",
+            "No"
+          ],
+          "name": "Bleeding",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Excavated lesions"
+    },
+    {
+      "term": "Depressed superficial lesion",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [
+            "Single",
+            "Multiple"
+          ],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [],
+          "name": "Free margins",
+          "specify": true,
+          "hints": [
+            "To relevant structure(s)"
+          ]
+        },
+        {
+          "values": [],
+          "name": "Type",
+          "specify": true,
+          "hints": [
+            "Japan classification"
+          ]
+        },
+        {
+          "values": [],
+          "name": "Surface",
+          "specify": true,
+          "hints": [
+            "Kudo classification"
+          ]
+        },
+        {
+          "values": [
+            "Yes",
+            "Stigmata",
+            "No"
+          ],
+          "name": "Bleeding",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Excavated lesions"
+    },
+    {
+      "term": "Ulcer",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Number",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [
+            "Superficial",
+            "Cratered"
+          ],
+          "name": "Depth",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [
+            "Round",
+            "Linear",
+            "Irregular"
+          ],
+          "name": "Shape",
+          "specify": false,
+          "hints": []
+        },
+        {
+          "values": [],
+          "name": "Bleeding",
+          "specify": true,
+          "hints": [
+            "Forrest classification"
+          ]
+        }
+      ],
+      "heading": "Excavated lesions"
+    },
+    {
+      "term": "Scar",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        }
+      ],
+      "heading": "Excavated lesions"
+    },
+    {
+      "term": "Fistula",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [],
+          "name": "Communicating organ",
+          "specify": true,
+          "hints": [
+            "specify"
+          ]
+        }
+      ],
+      "heading": "Excavated lesions"
+    },
+    {
+      "term": "Perforation",
+      "organs": [
+        "Esophagus",
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum",
+        "Colon"
+      ],
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [
+            "Mediastinal",
+            "Free peritoneal",
+            "Retroperitoneal"
+          ],
+          "name": "type",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Excavated lesions"
+    },
+    {
+      "term": "Mallory-Weiss tear",
+      "organs": "Esophagus",
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        },
+        {
+          "values": [
+            "Spurting",
+            "Oozing",
+            "Stigmata",
+            "No"
+          ],
+          "name": "Bleeding",
+          "specify": false,
+          "hints": []
+        }
+      ],
+      "heading": "Excavated lesions"
+    },
+    {
+      "term": "Anal fissure",
+      "organs": "Colon",
+      "attributes": [
+        {
+          "values": [],
+          "name": "Size (cm)",
+          "specify": true,
+          "hints": [
+            "xx cm"
+          ]
+        }
+      ],
+      "heading": "Excavated lesions"
+    }
+  ],
+  "eusAnatomyKey": {
+    "Duodenum": "Duodenum",
+    "Esophagus": "Esophagus",
+    "Colorectum": "Colorectum",
+    "Pancreas": "Pancreas",
+    "Biliary tree": "Biliary tract",
+    "Stomach": "Stomach"
+  },
+  "eusAnatomy": {
+    "Esophagus": {
+      "modifiers": [
+        "right",
+        "left",
+        "xx cm from incisors",
+        "station no"
+      ],
+      "sites": [
+        "esophageal wall",
+        "upper esophagus",
+        "mid esophagus",
+        "lower esophagus",
+        "cardia",
+        "mediastinum",
+        "periesophageal",
+        "paraesophageal",
+        "subcarina",
+        "pleura",
+        "lung",
+        "trachea",
+        "main bronchus",
+        "left atrium",
+        "pericardium",
+        "aortopulmonary window",
+        "diaphragm",
+        "crus",
+        "spine",
+        "carotid artery",
+        "Subclavian artery",
+        "aortic arch",
+        "thoracic aorta",
+        "pulmonary artery",
+        "superior vena cava",
+        "inferior vena cava",
+        "azygos vein",
+        "lymph node station xx"
+      ]
+    },
+    "Biliary tract": {
+      "modifiers": [
+        "whole",
+        "upper",
+        "mid",
+        "lower",
+        "terminal",
+        "xx cm from papilla",
+        "Above",
+        "Below"
+      ],
+      "sites": [
+        "Major papilla",
+        "Whole biliary tree",
+        "Common bile duct",
+        "Cystic duct",
+        "Cystic duct takeoff",
+        "Gallbladder",
+        "Bifurcation",
+        "generalized",
+        "peribiliary"
+      ]
+    },
+    "Pancreas": {
+      "modifiers": [
+        "xx cm from the papilla",
+        "whole",
+        "upstream",
+        "downstream",
+        "central",
+        "peripheral"
+      ],
+      "sites": [
+        "Major papilla",
+        "Minor papilla",
+        "Whole pancreatic duct",
+        "head",
+        "neck",
+        "body",
+        "tail",
+        "Uncinate process",
+        "ventral duct",
+        "dorsal duct",
+        "Duct of Santorini",
+        "Duct of Wirsungi",
+        "Side branches",
+        "generalized",
+        "peripancreatic"
+      ]
+    },
+    "Colorectum": {
+      "modifiers": [
+        "proximal",
+        "mid",
+        "distal",
+        "xx cm from anus",
+        "xx cm from stoma"
+      ],
+      "sites": [
+        "colorectal wall",
+        "anal canal",
+        "lower rectum",
+        "mid rectum",
+        "upper rectum",
+        "rectosigmoid junction",
+        "sigmoid",
+        "descending colon",
+        "transverse colon",
+        "ascending colon",
+        "cecum",
+        "terminal ileum",
+        "perianal",
+        "perirectal",
+        "pericolonic",
+        "prostate gland",
+        "seminal vesicles",
+        "urinary bladder",
+        "uterus",
+        "vagina",
+        "sacrum",
+        "puborectalis muscle",
+        "internal sphincter",
+        "external sphincter",
+        "anastomosis"
+      ]
+    },
+    "Stomach": {
+      "modifiers": [
+        "Greater curve",
+        "Lesser curve",
+        "Anterior wall",
+        "Posterior wall",
+        "xx cm from incisors",
+        "xx cm from the GE junction",
+        "xx cm from pylorus",
+        "xx mm from GI wall",
+        "generalized"
+      ],
+      "sites": [
+        "Stomach",
+        "Cardia",
+        "Fundus",
+        "Body",
+        "Incisura",
+        "Antrum",
+        "Prepyloric region",
+        "Pylorus",
+        "Whole stomach",
+        "Anastomosis",
+        "Hiatal hernia",
+        "Gastric wall",
+        "celiac axis",
+        "perigastric",
+        "left kidney",
+        "spleen",
+        "splenic hilum",
+        "left adrenal",
+        "portal vein",
+        "splenic vein",
+        "portal confluence",
+        "splenic artery",
+        "left renal artery",
+        "left renal vein",
+        "hepatic artery",
+        "superior mes artery",
+        "superior mes vein",
+        "left gastric artery"
+      ]
+    },
+    "Duodenum": {
+      "modifiers": [
+        "Proximal",
+        "Distal",
+        "generalized"
+      ],
+      "sites": [
+        "Duodenum",
+        "Duodenal bulb",
+        "D2 - 2nd part of duodenum",
+        "D3 - 3rd part of duodenum",
+        "D4 - 4th part of duodenum",
+        "Upper duodenal knee",
+        "Ampullary region",
+        "Major papilla",
+        "Minor papilla",
+        "Anastomosis",
+        "duiodenal wall",
+        "periduodenal",
+        "right kidney",
+        "right adrenal",
+        "Inferior vena cava",
+        "Aorta (abdominal)"
+      ]
+    },
+    "EUS ANATOMY": {
+      "modifiers": [],
+      "sites": []
+    }
+  },
+  "eventOutcomes": [
+    "recovery",
+    "permanent disability",
+    "died (days after procedure)"
+  ],
+  "anatomy": {
+    "Esophagus": {
+      "modifiers": [
+        "xx cm from incisors"
+      ],
+      "sites": [
+        "Esophagus",
+        "Cricopharynx",
+        "Upper third",
+        "Middle third",
+        "Lower third",
+        "z-line",
+        "Cardia",
+        "Whole esophagus",
+        "Anastomosis"
+      ]
+    },
+    "Ileum": {
+      "modifiers": [
+        "xx cm from ileocecal valve",
+        "xx cm from stoma",
+        "xx min from cecum",
+        "Proximal",
+        "Distal",
+        "whole",
+        "whole examined"
+      ],
+      "sites": [
+        "Ileum",
+        "Stoma"
+      ]
+    },
+    "Biliary tree": {
+      "modifiers": [
+        "whole",
+        "upper",
+        "mid",
+        "lower",
+        "terminal",
+        "xx cm from papilla",
+        "Above",
+        "Below",
+        "central",
+        "peripheral"
+      ],
+      "sites": [
+        "Major papilla",
+        "Whole biliary tree",
+        "Common bile duct",
+        "Cystic duct",
+        "Cystic duct takeoff",
+        "Gallbladder",
+        "Bifurcation",
+        "Anastomosis",
+        "Left main duct",
+        "Right main duct",
+        "Left intrahepatic branches",
+        "Right intrahepatic branches",
+        "Segment xx branch"
+      ]
+    },
+    "Pancreatic duct": {
+      "modifiers": [
+        "xx cm from the papilla",
+        "whole",
+        "upstream",
+        "downstream",
+        "central",
+        "peripheral"
+      ],
+      "sites": [
+        "Major papilla",
+        "Minor papilla",
+        "Whole pancreatic duct",
+        "head",
+        "neck",
+        "body",
+        "tail",
+        "Uncinate process",
+        "ventral duct",
+        "dorsal duct",
+        "Duct of Santorini",
+        "Duct of Wirsungi",
+        "Side branches"
+      ]
+    },
+    "Jejunum": {
+      "modifiers": [
+        "xx cm from lig of Treitz",
+        "xx min from pylorus",
+        "Proximal",
+        "Distal",
+        "Whole",
+        "Whole examined",
+        "type (specify)"
+      ],
+      "sites": [
+        "Jejunum",
+        "Ligament of Treitz",
+        "Afferent loop",
+        "Efferent loop",
+        "Jejunal crest",
+        "Roux-y-limb",
+        "anastomosis",
+        "stoma"
+      ]
+    },
+    "Colon": {
+      "modifiers": [
+        "xx cm from anus",
+        "xx cm from stoma",
+        "proximal",
+        "mid",
+        "distal",
+        "whole",
+        "whole examined",
+        "type (specify)"
+      ],
+      "sites": [
+        "Colon",
+        "anus",
+        "rectum",
+        "Sigmoid colon",
+        "Descending colon",
+        "Splenic flexure",
+        "Transverse colon",
+        "Hepatic flexure",
+        "Ascending colon",
+        "Cecum",
+        "Ileocecal valve",
+        "Anastomosis",
+        "Pouch",
+        "Stoma"
+      ]
+    },
+    "Stomach": {
+      "modifiers": [
+        "Greater curve",
+        "Lesser curve",
+        "Anterior wall",
+        "Posterior wall",
+        "xx cm from incisors",
+        "xx cm from the GE junction",
+        "xx cm from pylorus"
+      ],
+      "sites": [
+        "Stomach",
+        "Cardia",
+        "Fundus",
+        "Body",
+        "Incisura/angulus",
+        "Antrum",
+        "Prepyloric region",
+        "Pylorus",
+        "Whole stomach",
+        "Anastomosis",
+        "Hiatal hernia",
+        "Diaphragma orifice"
+      ]
+    },
+    "Duodenum": {
+      "modifiers": [
+        "Proximal",
+        "Distal",
+        "Whole",
+        "Whole examined"
+      ],
+      "sites": [
+        "Duodenum",
+        "Duodenal bulb",
+        "D2 - 2nd part of duodenum",
+        "D3 - 3rd part of duodenum",
+        "D4 - 4th part of duodenum",
+        "Upper duodenal knee/ superior duodenal angulus",
+        "Ampullary region",
+        "Major papilla",
+        "Minor papilla",
+        "Lower duodenal knee/ inferior duodenal angulus",
+        "Anastomosis"
+      ]
+    }
+  },
+  "eventActions": [
+    "endoscopic intervention",
+    "aborted procedure",
+    "medical intervention",
+    "admission to hospital (days)",
+    "admission to ICU",
+    "repeat endoscopy",
+    "radiologic intervention",
+    "surgery"
+  ]
+}
