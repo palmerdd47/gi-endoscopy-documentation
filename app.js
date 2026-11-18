@@ -124,6 +124,15 @@ function reportLabel(report) {
   return [report.exam.examDate, proc ? proc.label : 'Procedure not chosen'].filter(Boolean).join(' · ');
 }
 
+function reportProcedureTitle(report) {
+  const proc = dict && dict.procedures.find((item) => item.id === report.exam.procedure);
+  return proc ? proc.label : 'Procedure not chosen';
+}
+
+function reportProcedureSub(report) {
+  return report.exam.examDate || '';
+}
+
 const state = {
   get selected() { return store.selected; },
   set selected(value) { store.selected = value; },
@@ -432,10 +441,7 @@ function levelStatus(organ) {
 function levelSummary(organ) {
   const status = levelStatus(organ);
   if (status === 'empty') return 'Not documented';
-  if (status === 'normal') {
-    const finding = findingsForOrgan(organ).find((item) => findingMode(item) === 'normal');
-    return finding && finding.site ? `No abnormality — ${finding.site}` : 'No abnormality noted';
-  }
+  if (status === 'normal') return 'No abnormality noted';
   const items = findingsForOrgan(organ).filter((item) => findingMode(item) !== 'normal');
   const first = items.map((item) => [item.term, item.site].filter(Boolean).join(' — ')).find(Boolean);
   if (!first) return 'Abnormal';
@@ -473,13 +479,8 @@ function setLevelStatus(organ, status) {
     return;
   }
   if (status === 'normal') {
-    const previous = findingsForOrgan(organ).find((finding) => findingMode(finding) === 'normal') || {};
     state.exam.findings = state.exam.findings.filter((finding) => finding.organ !== organ);
-    const finding = blankFinding(organ, 'normal');
-    finding.site = previous.site || '';
-    finding.modifier = previous.modifier || '';
-    finding.modifierDetail = previous.modifierDetail || '';
-    state.exam.findings.push(finding);
+    state.exam.findings.push(blankFinding(organ, 'normal'));
     return;
   }
   state.exam.findings = state.exam.findings.filter((finding) => !(finding.organ === organ && findingMode(finding) === 'normal'));
@@ -495,9 +496,8 @@ function modifierPhrase(finding) {
   return [modifier, detail].filter(Boolean).join(' ');
 }
 
-function normalSentence(finding) {
-  const where = [finding.organ, finding.site, modifierPhrase(finding)].filter(Boolean).join(', ');
-  return where ? `${where}: No abnormality noted.` : 'No abnormality noted.';
+function normalResultPhrase() {
+  return 'No abnormality noted';
 }
 
 function renderAnatomy(finding) {
@@ -515,19 +515,6 @@ function renderAnatomy(finding) {
     </div>`;
 }
 
-function renderAnatomyCatalog(organ) {
-  const anatomy = anatomyFor(organ);
-  const sites = anatomy.sites || [];
-  const modifiers = anatomy.modifiers || [];
-  const chips = (values) => values.map((value) => `<span class="chip chip-static">${esc(value)}</span>`).join('');
-  if (!sites.length && !modifiers.length) return '';
-  return `
-    <div class="anatomy">
-      ${sites.length ? `<div><div class="anatomy-label">Sites</div><div class="chip-row">${chips(sites)}</div></div>` : ''}
-      ${modifiers.length ? `<div><div class="anatomy-label">Modifiers</div><div class="chip-row">${chips(modifiers)}</div></div>` : ''}
-    </div>`;
-}
-
 function statusButtons(organ, status) {
   const choices = [
     ['empty', 'Not documented'],
@@ -538,12 +525,18 @@ function statusButtons(organ, status) {
     <button type="button" class="status-btn${status === value ? ' is-on' : ''}" aria-pressed="${status === value ? 'true' : 'false'}" data-action="level-status" data-organ="${esc(organ)}" data-status="${value}">${label}</button>`).join('')}</div>`;
 }
 
+function renderNormalFinding() {
+  return `
+    <article class="finding-card">
+      <h4>No abnormality noted</h4>
+      <p class="finding-result">${esc(normalResultPhrase())}</p>
+    </article>`;
+}
+
 function renderNormalLevel(organ) {
   const finding = findingsForOrgan(organ).find((item) => findingMode(item) === 'normal');
   if (!finding) return '';
-  return `
-    <p class="statement">${esc(normalSentence(finding))}</p>
-    ${renderAnatomy(finding)}`;
+  return renderNormalFinding();
 }
 
 function renderAbnormalFinding(finding, index) {
@@ -593,7 +586,7 @@ function renderLevel(organ) {
   if (!procedure() || !organs.includes(organ)) return '';
   const status = levelStatus(organ);
   const abnormal = findingsForOrgan(organ).filter((finding) => findingMode(finding) !== 'normal');
-  let body = `${renderAnatomyCatalog(organ)}<p class="hint">Mark this level, then choose the site and modifier.</p>`;
+  let body = '';
   if (status === 'normal') body = renderNormalLevel(organ);
   if (status === 'abnormal') {
     body = abnormal.map((finding, findingIndex) => renderAbnormalFinding(finding, findingIndex)).join('')
@@ -794,7 +787,7 @@ function renderPreview() {
 }
 
 function findingLine(item) {
-  if (findingMode(item) === 'normal') return `<li>${esc(normalSentence(item))}</li>`;
+  if (findingMode(item) === 'normal') return `<li>${esc(normalResultPhrase())}</li>`;
   const bits = [headingLabel(item.organ, item.heading), item.term, item.site, modifierPhrase(item)].filter(Boolean);
   const attrs = Object.entries(item.attributes || {}).map(([name, value]) => `${name}: ${describeAttr(value)}`).filter((text) => !text.endsWith(': '));
   return `<li>${esc(bits.join(' · ') || 'Abnormal finding')}${attrs.length ? `<br>${esc(attrs.join('; '))}` : ''}</li>`;
@@ -868,7 +861,8 @@ function renderMain() {
 
 function treeButton(id, label, sub, extraClass) {
   const active = state.selected === id ? ' active' : '';
-  return `<button type="button" class="tree-label${active}${extraClass ? ` ${extraClass}` : ''}" data-select="${esc(id)}"><span><strong>${esc(label)}</strong>${sub ? `<br><small>${esc(sub)}</small>` : ''}</span></button>`;
+  const subHtml = sub ? `<small>${esc(sub)}</small>` : '';
+  return `<button type="button" class="tree-label${active}${extraClass ? ` ${extraClass}` : ''}" data-select="${esc(id)}"><span class="tree-section-title"><strong>${esc(label)}</strong>${subHtml}</span></button>`;
 }
 
 function treeItems(kind, items, labelOf, noun) {
@@ -894,9 +888,60 @@ function syncTreeSections() {
   if (sel.startsWith('event:')) ensure('report-events');
 }
 
-function treeCollapsible(sectionKey, title, sub, body, nested) {
+function sectionForSelection(sel) {
+  if (!sel) return '';
+  if (sel === 'demographics') return 'patient';
+  if (sel.startsWith('reason:')) return 'report-reasons';
+  if (sel.startsWith('level:')) return 'report-levels';
+  if (sel.startsWith('intervention:')) return 'report-interventions';
+  if (sel.startsWith('diagnosis:')) return 'report-diagnoses';
+  if (sel.startsWith('event:')) return 'report-events';
+  if (sel === 'exam' || sel === 'images' || sel === 'narrative') return 'procedures';
+  return '';
+}
+
+function selectionForSectionHeader(sectionKey) {
+  if (sectionKey === 'patient') return 'demographics';
+  if (sectionKey === 'procedures' || sectionKey === 'report-levels') return '';
+  const lists = {
+    'report-reasons': ['reason', state.exam.reasons],
+    'report-interventions': ['intervention', state.exam.interventions],
+    'report-diagnoses': ['diagnosis', state.exam.diagnoses],
+    'report-events': ['event', state.exam.events],
+  };
+  const entry = lists[sectionKey];
+  if (!entry) return '';
+  const [prefix, list] = entry;
+  if (!list.length) return '';
+  const sel = state.selected || '';
+  if (sel.startsWith(`${prefix}:`)) {
+    const id = sel.slice(prefix.length + 1);
+    if (list.some((item) => item.id === id)) return sel;
+  }
+  return `${prefix}:${list[0].id}`;
+}
+
+function treeProcedureToggle(item, bodyHtml) {
+  const current = currentReport();
+  const isCurrent = item.id === current.id;
+  const expanded = isCurrent && isTreeSectionOpen('procedure-doc');
+  const title = reportProcedureTitle(item);
+  const sub = reportProcedureSub(item);
+  const subHtml = sub ? `<small>${esc(sub)}</small>` : '';
+  const active = expanded ? ' active' : '';
+  return `<div class="tree-section tree-section-nested tree-procedure-row">
+    <button type="button" class="tree-section-head tree-procedure-head${active}" data-action="toggle-procedure" data-id="${esc(item.id)}" aria-expanded="${expanded ? 'true' : 'false'}">
+      <span class="tree-section-title"><strong>${esc(title)}</strong>${subHtml}</span>
+      <span class="tree-chevron" aria-hidden="true"></span>
+    </button>
+    <div class="tree-section-panel tree-procedure-doc"${expanded ? '' : ' hidden'}>${expanded ? bodyHtml : ''}</div>
+  </div>`;
+}
+
+function treeCollapsible(sectionKey, title, sub, body, nested, sectionClass) {
   const open = isTreeSectionOpen(sectionKey);
-  const wrapClass = nested ? 'tree-section tree-section-nested' : 'tree-section';
+  const base = nested ? 'tree-section tree-section-nested' : 'tree-section';
+  const wrapClass = sectionClass ? `${base} ${sectionClass}` : base;
   const subHtml = sub ? `<small>${esc(sub)}</small>` : '';
   return `<div class="${wrapClass}">
     <button type="button" class="tree-section-head" data-action="toggle-section" data-section="${esc(sectionKey)}" aria-expanded="${open ? 'true' : 'false'}">
@@ -928,10 +973,6 @@ function renderTree() {
   const report = currentReport();
   const docOpen = isTreeSectionOpen('procedure-doc');
   const reportItems = docOpen ? patient.reports.filter((item) => item.id === report.id) : patient.reports;
-  const reports = reportItems.map((item) => `<button type="button" class="tree-item${item.id === report.id ? ' active' : ''}" data-action="open-report" data-id="${item.id}"><span>${esc(reportLabel(item))}</span></button>`).join('');
-  const allProcedures = docOpen && patient.reports.length > 1
-    ? '<button type="button" class="tree-add" data-action="show-all-procedures">All procedures</button>'
-    : '';
   const name = patientName(patient);
   const demo = patient.demographics || {};
   const patientHeader = name === 'New patient' ? 'New patient' : name;
@@ -950,11 +991,13 @@ function renderTree() {
     treeButton('narrative', 'Free text', state.narrative ? 'Narrative entered' : 'End of report'),
   ].join('');
   const procSub = listCount(patient.reports.length, 'No procedures yet', '1 procedure', '{n} procedures');
-  const procedureDoc = docOpen ? `<div class="tree-procedure-doc">${reportBody}</div>` : '';
-  const procHeadSub = docOpen ? reportLabel(report) : procSub;
+  const reports = reportItems.map((item) => treeProcedureToggle(item, reportBody)).join('');
+  const allProcedures = docOpen && patient.reports.length > 1
+    ? '<button type="button" class="tree-add" data-action="show-all-procedures">All procedures</button>'
+    : '';
   $('#tree').innerHTML = [
-    treeCollapsible('patient', patientHeader, patientSub, treeButton('demographics', 'Demographics', name === 'New patient' ? 'Register this patient' : 'Patient registration')),
-    treeCollapsible('procedures', 'Procedures', procHeadSub, `${reports}${allProcedures}${procedureDoc}`),
+    treeCollapsible('patient', patientHeader, patientSub, treeButton('demographics', 'Demographics', name === 'New patient' ? 'Register this patient' : 'Patient registration'), false, 'tree-section-patient'),
+    treeCollapsible('procedures', 'Procedures', procSub, `${reports}${allProcedures}`, false, 'tree-section-procedures'),
   ].join('');
 }
 
@@ -1484,12 +1527,27 @@ function wire() {
     const action = event.target.closest('[data-action]');
     const select = event.target.closest('[data-select]');
     if (action && action.dataset.action === 'open-patient') { setMenu(false); openPatient(action.dataset.id); return; }
-    if (action && action.dataset.action === 'open-report') { setMenu(false); openReport(action.dataset.id); return; }
+    if (action && action.dataset.action === 'toggle-procedure') {
+      const id = action.dataset.id;
+      if (store.reportId === id && isTreeSectionOpen('procedure-doc')) {
+        showAllProcedures();
+        return;
+      }
+      setMenu(false);
+      openReport(id);
+      return;
+    }
     if (action && action.dataset.action === 'show-all-procedures') { showAllProcedures(); return; }
     if (action && action.dataset.action === 'toggle-section') {
       const key = action.dataset.section;
-      store.treeOpen[key] = !isTreeSectionOpen(key);
-      renderTree();
+      const wasOpen = isTreeSectionOpen(key);
+      store.treeOpen[key] = !wasOpen;
+      if (wasOpen) {
+        if (sectionForSelection(state.selected) === key) state.selected = '';
+      } else {
+        state.selected = selectionForSectionHeader(key);
+      }
+      render();
       return;
     }
     if (select) {
