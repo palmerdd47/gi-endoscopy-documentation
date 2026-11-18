@@ -8,27 +8,95 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="app-header">
-    <div class="brand">
-      <div class="brand-mark">MBH</div>
-      <div>
-        <div class="brand-title">GI Endoscopy Documentation</div>
-        <div class="brand-sub">Mbingo Baptist Hospital · MST 3.0</div>
+  <section id="login-screen" class="login-screen" hidden>
+    <form id="login-form" class="login-card">
+      <div class="login-mark">MBH</div>
+      <h1>Mbingo Baptist Hospital</h1>
+      <p class="login-sub">GI Endoscopy Documentation</p>
+      <label class="login-field">
+        <span>Username</span>
+        <input id="login-user" name="username" autocomplete="username" required />
+      </label>
+      <label class="login-field">
+        <span>Password</span>
+        <input id="login-pass" name="password" type="password" autocomplete="current-password" required />
+      </label>
+      <label class="login-field">
+        <span>Location</span>
+        <select id="login-location" name="location" required>
+          <option value="">Select location</option>
+          <option>Endoscopy</option>
+        </select>
+      </label>
+      <p id="login-error" class="login-error" role="alert" hidden></p>
+      <button type="submit" class="btn btn-primary login-submit">Log in</button>
+    </form>
+  </section>
+  <div id="app" hidden>
+  <header class="emr-header">
+    <div class="emr-row1">
+      <button type="button" id="btn-brand" class="emr-brand">MBINGO-EMR</button>
+      <div class="emr-row1-right">
+        <span id="session-label" class="emr-welcome"></span>
+        <button type="button" id="btn-signout" class="emr-logoff">Log off</button>
+        <span id="emr-clock" class="emr-clock"></span>
       </div>
     </div>
-    <div class="header-actions">
-      <span id="save-state" class="save-state">Not saved yet</span>
-      <button type="button" id="btn-new" class="btn btn-ghost">New report</button>
-      <button type="button" id="btn-preview" class="btn btn-ghost">Preview</button>
-      <button type="button" id="btn-print" class="btn btn-ghost">Print</button>
-      <button type="button" id="btn-download" class="btn btn-primary">Download</button>
+    <div class="emr-row2">
+      <div class="emr-row2-left">
+        <button type="button" id="btn-back" class="emr-action">Back</button>
+        <div class="menu-controls">
+          <button type="button" id="btn-menu" class="emr-action" aria-expanded="false" aria-controls="tree">Menu</button>
+          <button type="button" id="btn-pin-menu" class="menu-pin" aria-pressed="false" aria-controls="tree" title="Pin menu to the left" aria-label="Pin menu to the left">
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+              <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 17v5M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V17h14v-1.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V6h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="emr-row2-center">
+        <h1 id="page-title" class="emr-title">GI Endoscopy</h1>
+        <span id="save-state" class="save-state">Not saved yet</span>
+      </div>
+      <div class="emr-actions">
+        <button type="button" id="btn-actions" class="emr-action" aria-expanded="false" aria-controls="actions-menu">Actions</button>
+        <ul id="actions-menu" class="emr-dropdown" hidden>
+          <li><button type="button" id="btn-new">Register patient</button></li>
+          <li><button type="button" id="btn-select-patient" aria-haspopup="dialog">Select patient</button></li>
+          <li><button type="button" id="btn-procedure">Add procedure</button></li>
+          <li><button type="button" id="btn-preview">Preview</button></li>
+          <li><button type="button" id="btn-print">Print</button></li>
+          <li><button type="button" id="btn-download">Download</button></li>
+        </ul>
+      </div>
     </div>
   </header>
-  <div class="layout">
-    <nav id="tree" class="tree" aria-label="Report outline"></nav>
+  <div class="workspace">
+    <div id="menu-layer" class="menu-layer" hidden>
+      <button type="button" id="menu-backdrop" class="menu-backdrop" aria-label="Close menu"></button>
+      <aside class="menu-panel">
+        <nav id="tree" class="tree" aria-label="Report outline"></nav>
+      </aside>
+    </div>
     <main id="main" class="main"></main>
   </div>
   <article id="print-root" class="print-root"></article>
+  <div id="patient-picker" class="patient-picker" hidden>
+    <button type="button" class="patient-picker-backdrop" id="patient-picker-backdrop" aria-label="Close"></button>
+    <div class="patient-picker-card" role="dialog" aria-modal="true" aria-labelledby="patient-picker-title">
+      <header class="patient-picker-head">
+        <h2 id="patient-picker-title">Select patient</h2>
+        <button type="button" id="patient-picker-close" class="patient-picker-close" aria-label="Close">×</button>
+      </header>
+      <label class="patient-picker-search">
+        <span>Look up</span>
+        <input type="search" id="patient-picker-search" placeholder="Name, hospital number, or phone" autocomplete="off" />
+      </label>
+      <ul id="patient-picker-list" class="patient-picker-list"></ul>
+      <p id="patient-picker-empty" class="patient-picker-empty" hidden>No matching patients</p>
+    </div>
+  </div>
+  </div>
   <script src="app.js"></script>
 </body>
 </html>

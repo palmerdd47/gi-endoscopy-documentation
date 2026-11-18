@@ -53,7 +53,7 @@
   "adverseEvents": {
     "intraprocedure": [
       {
-        "type": "No adverse events during the procedure",
+        "type": "No adverse events",
         "attributes": []
       },
       {
@@ -4488,14 +4488,6 @@
       ],
       "attributes": [
         {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        },
-        {
           "values": [
             "Single",
             "Multiple"
@@ -4527,14 +4519,6 @@
       ],
       "attributes": [
         {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        },
-        {
           "values": [
             "Single",
             "Multiple"
@@ -4563,10 +4547,10 @@
       "attributes": [
         {
           "values": [],
-          "name": "Size (cm)",
+          "name": "Size",
           "specify": true,
           "hints": [
-            "xx cm"
+            "xx mm (max)"
           ]
         }
       ],
@@ -4594,10 +4578,10 @@
         },
         {
           "values": [],
-          "name": "Size (cm)",
+          "name": "Size",
           "specify": true,
           "hints": [
-            "xx cm"
+            "xx mm (max)"
           ]
         },
         {
@@ -4649,14 +4633,6 @@
       ],
       "attributes": [
         {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        },
-        {
           "values": [
             "Single",
             "Multiple"
@@ -4690,10 +4666,10 @@
         },
         {
           "values": [],
-          "name": "Size (cm)",
+          "name": "Size",
           "specify": true,
           "hints": [
-            "xx cm"
+            "xx mm (max)"
           ]
         },
         {
@@ -4762,10 +4738,10 @@
         },
         {
           "values": [],
-          "name": "Size (cm)",
+          "name": "Size",
           "specify": true,
           "hints": [
-            "xx cm"
+            "xx mm (max)"
           ]
         },
         {
@@ -4837,10 +4813,10 @@
         },
         {
           "values": [],
-          "name": "Size (cm)",
+          "name": "Size",
           "specify": true,
           "hints": [
-            "xx cm"
+            "mm (max)"
           ]
         },
         {
@@ -4871,14 +4847,6 @@
       "organs": "Stomach",
       "attributes": [
         {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        },
-        {
           "values": [
             "Localized",
             "Generalized"
@@ -4896,45 +4864,19 @@
         "Stomach",
         "Duodenum"
       ],
-      "attributes": [
-        {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        }
-      ],
+      "attributes": [],
       "heading": "Protruding lesions"
     },
     {
       "term": "Enlarged Brunners glands",
       "organs": "Duodenum",
-      "attributes": [
-        {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        }
-      ],
+      "attributes": [],
       "heading": "Protruding lesions"
     },
     {
       "term": "Hemorrhoids",
       "organs": "Colon",
       "attributes": [
-        {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        },
         {
           "values": [
             "#"
@@ -4969,14 +4911,6 @@
       ],
       "attributes": [
         {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        },
-        {
           "values": [
             "A few",
             "Multiple"
@@ -4999,14 +4933,6 @@
         "Colon"
       ],
       "attributes": [
-        {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        },
         {
           "values": [
             "Single",
@@ -5051,10 +4977,10 @@
         },
         {
           "values": [],
-          "name": "Size (cm)",
+          "name": "Size",
           "specify": true,
           "hints": [
-            "xx cm"
+            "mm (max)"
           ]
         },
         {
@@ -5113,10 +5039,10 @@
         },
         {
           "values": [],
-          "name": "Size (cm)",
+          "name": "Size",
           "specify": true,
           "hints": [
-            "xx cm"
+            "xx mm (max)"
           ]
         },
         {
@@ -5159,16 +5085,7 @@
         "Ileum",
         "Colon"
       ],
-      "attributes": [
-        {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        }
-      ],
+      "attributes": [],
       "heading": "Excavated lesions"
     },
     {
@@ -5182,14 +5099,6 @@
         "Colon"
       ],
       "attributes": [
-        {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        },
         {
           "values": [],
           "name": "Communicating organ",
@@ -5213,14 +5122,6 @@
       ],
       "attributes": [
         {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        },
-        {
           "values": [
             "Mediastinal",
             "Free peritoneal",
@@ -5238,14 +5139,6 @@
       "organs": "Esophagus",
       "attributes": [
         {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        },
-        {
           "values": [
             "Spurting",
             "Oozing",
@@ -5262,16 +5155,7 @@
     {
       "term": "Anal fissure",
       "organs": "Colon",
-      "attributes": [
-        {
-          "values": [],
-          "name": "Size (cm)",
-          "specify": true,
-          "hints": [
-            "xx cm"
-          ]
-        }
-      ],
+      "attributes": [],
       "heading": "Excavated lesions"
     }
   ],
